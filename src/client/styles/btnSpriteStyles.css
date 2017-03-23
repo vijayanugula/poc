@@ -1,0 +1,1298 @@
+.spriteButton {
+    cursor: pointer
+}
+
+span.btnLeftDoor {
+    background: url('../img/buttonSprites_128.gif') no-repeat scroll 0;
+    background-position: -12px -12px;
+    float: left;
+    height: 19px;
+    width: 10px
+}
+
+a.btnCenterBackground {
+    background: url('../img/buttonSprites_128.gif') no-repeat scroll 0;
+    background-position: -12px -55px;
+    float: left;
+    height: 19px;
+    padding: 0 2px 0 2px;
+    line-height: 12px;
+    text-decoration: none
+}
+
+span.btnCenterText {
+    position: relative;
+    color: #effbfe;
+    top: 3px;
+    _top: 3px;
+    top: 3px;
+    font-size: 12px
+}
+
+span.btnRightDoor {
+    background: url('../img/buttonSprites_128.gif') no-repeat scroll 0;
+    background-position: -30px -12px;
+    float: left;
+    height: 19px;
+    width: 10px
+}
+
+a.utilButtonCenter {
+    background-position: -12px -200px
+}
+
+span.utilButtonText {
+    color: #1f5e8b
+}
+
+span.utilRightDoor {
+    background-position: -322px -12px
+}
+
+input.btnCenterText {
+    display: inline;
+    position: relative;
+    color: #effbfe;
+    top: 0;
+    _top: 3px;
+    top: 3px
+}
+
+input.btnCenterBackground {
+    background: url('../img/buttonSprites_128.gif') no-repeat scroll 0;
+    background-position: -12px -55px;
+    border: 0;
+    cursor: pointer;
+    float: left;
+    height: 19px;
+    padding: 0 2px 0 2px;
+    margin: 0;
+    text-decoration: none;
+    width: auto;
+    overflow: visible;
+    font-size: 13px
+}
+
+a.blueButtonCenter,
+input.blueButtonCenter {
+    background-color: #14518f
+}
+
+span.blueLeftDoor {
+    background-position: -12px -12px
+}
+
+a.blueButtonCenter,
+input.blueButtonCenter {
+    background-position: -12px -55px
+}
+
+span.blueButtonText,
+input.blueButtonText {
+    color: #effbfe
+}
+
+span.blueRightDoor {
+    background-position: -30px -12px
+}
+
+a.yellowButtonCenter,
+input.yellowButtonCenter {
+    background-color: #ffeca6
+}
+
+span.yellowLeftDoor {
+    background-position: -45px -12px
+}
+
+a.yellowButtonCenter,
+input.yellowButtonCenter {
+    background-position: -12px -79px
+}
+
+span.yellowButtonText,
+input.yellowButtonText {
+    color: #333
+}
+
+span.yellowRightDoor {
+    background-position: -62px -12px
+}
+
+a.orangeButtonCenter,
+input.orangeButtonCenter {
+    background-color: #a84503
+}
+
+span.orangeLeftDoor {
+    background-position: -75px -12px
+}
+
+a.orangeButtonCenter,
+input.orangeButtonCenter {
+    background-position: -12px -100px
+}
+
+span.orangeButtonText,
+input.orangeButtonText {
+    color: #effbfe
+}
+
+span.orangeRightDoor {
+    background-position: -93px -12px
+}
+
+a.cyanButtonCenter,
+input.cyanButtonCenter {
+    background-color: #cce1f1
+}
+
+span.cyanLeftDoor {
+    background-position: -110px -12px
+}
+
+a.cyanButtonCenter,
+input.cyanButtonCenter {
+    background-position: -12px -125px
+}
+
+span.cyanButtonText,
+input.cyanButtonText {
+    color: #1f5e8b
+}
+
+span.cyanRightDoor {
+    background-position: -128px -12px
+}
+
+a.silverButtonCenter,
+input.silverButtonCenter {
+    background-color: #e0e0de
+}
+
+span.silverLeftDoor {
+    background-position: -144px -12px
+}
+
+a.silverButtonCenter,
+input.silverButtonCenter {
+    background-position: -12px -150px
+}
+
+span.silverButtonText,
+input.silverButtonText {
+    color: #555
+}
+
+span.silverRightDoor {
+    background-position: -162px -12px
+}
+
+a.greyButtonCenter,
+input.greyButtonCenter {
+    background-color: #eae9e5
+}
+
+span.greyLeftDoor {
+    background-position: -178px -12px
+}
+
+a.greyButtonCenter,
+input.greyButtonCenter {
+    background-position: -12px -175px
+}
+
+span.greyButtonText,
+input.greyButtonText {
+    color: #1f5e8b
+}
+
+span.greyRightDoor {
+    background-position: -196px -12px
+}
+
+span.clearLeftDoor {
+    background-position: 360px 360px
+}
+
+a.clearButtonCenter {
+    background-position: 360px 360px
+}
+
+span.clearButtonText {
+    border-bottom: 1px dotted;
+    color: #1f5e8b;
+    text-decoration: none
+}
+
+span.clearButtonText:hover {
+    border-bottom: 1px solid;
+    color: #1f5e8b;
+    cursor: pointer
+}
+
+span.clearRightDoor {
+    background-position: 360px 360px
+}
+
+span.buttonPdfClearLeft {
+    width: 27px;
+    background-position: -213px -33px
+}
+
+span.buttonPdfLeft {
+    width: 27px;
+    background-position: -213px -12px
+}
+
+span.buttonPrintLeft {
+    width: 27px;
+    background-position: -250px -12px
+}
+
+span.buttonEmailLeft {
+    width: 27px;
+    background-position: -290px -12px
+}
+
+span.tier0LeftDoor,
+a.tier0ButtonCenter,
+span.tier0RightDoor {
+    _height: 20px!important
+}
+
+span.tier0LeftDoor {
+    background-position: -12px -222px;
+    width: 6px
+}
+
+a.tier0ButtonCenter {
+    background-position: -12px -248px
+}
+
+span.tier0ButtonText {
+    color: #005495;
+    font-size: 11px;
+    line-height: 19px;
+    vertical-align: bottom
+}
+
+span.tier0RightDoor {
+    background-position: -24px -222px;
+    width: 6px
+}
+
+.spriteButton-v2,
+.spriteButton-v3 {
+    cursor: pointer;
+    font-size: 12px;
+    font-family: arial;
+    float: left
+}
+
+.spriteButton-v2.disabled,
+.spriteButton-v2.disabled a,
+.spriteButton-v2.disabled input,
+.spriteButton-v3.disabled,
+.spriteButton-v3.disabled a,
+.spriteButton-v3.disabled input {
+    cursor: default
+}
+
+.shadow {
+    -moz-box-shadow: 1px 1px 7px #AAA;
+    -webkit-box-shadow: 1px 1px 7px #AAA;
+    box-shadow: 1px 1px 7px #AAA
+}
+
+.spriteButton-v2 span.btnLeftDoor {
+    background: url('../img/buttonSprites.gif') no-repeat scroll 0;
+    background-position: -129px -14px;
+    float: left;
+    height: 36px;
+    width: 13px
+}
+
+.spriteButton-v2 a.btnCenterBackground {
+    background: url('../img/buttonSprites.gif') no-repeat scroll 0;
+    background-position: -260px -164px;
+    float: left;
+    height: 36px;
+    padding: 0 2px 0 2px;
+    line-height: 12px;
+    text-decoration: none
+}
+
+.spriteButton-v2 span.btnRightDoor {
+    background: url('../img/buttonSprites.gif') no-repeat scroll 0;
+    background-position: -28px -65px;
+    float: left;
+    height: 36px;
+    width: 13px
+}
+
+.spriteButton-v2 span.blueRightDoorArrow,
+.spriteButton-v2 span.silverLeftDoorArrow {
+    width: 23px
+}
+
+.spriteButton-v2 span.btnCenterText {
+    color: #effbfe;
+    position: relative;
+    top: 11px;
+    font-size: 14px;
+    font-weight: bold
+}
+
+.spriteButton-v2 a.btnSecondaryAction {
+    background: url("../img/buttonSprites.gif") no-repeat scroll -12px -124px transparent;
+    float: left;
+    height: 26px;
+    width: 27px
+}
+
+.spriteButton-v2 input.btnCenterText {
+    display: inline;
+    color: #effbfe
+}
+
+.spriteButton-v2 input.btnCenterBackground {
+    background: url('../img/buttonSprites.gif') no-repeat scroll 0;
+    background-position: -8px -110px;
+    border: 0;
+    cursor: pointer;
+    float: left;
+    height: 36px;
+    padding: 0 2px 0 2px;
+    margin: 0;
+    text-decoration: none;
+    width: auto;
+    overflow: visible;
+    font-size: 14px;
+    font-weight: bold
+}
+
+.spriteButton-v2 input.btnCenterText {
+    top: 0;
+    _top: 0;
+    top: 0
+}
+
+.spriteButton-v2 a.blueButtonCenter,
+.spriteButton-v2 input.blueButtonCenter {
+    background-color: #09306a
+}
+
+.spriteButton-v2 span.blueLeftDoor {
+    background-position: -129px -14px
+}
+
+.spriteButton-v2 a.blueButtonCenter,
+.spriteButton-v2 input.blueButtonCenter {
+    background-position: -257px -114px
+}
+
+.spriteButton-v2 span.blueRightDoor {
+    background-position: -153px -14px
+}
+
+.spriteButton-v2 span.blueRightDoorArrow {
+    background-position: -178px -14px
+}
+
+.spriteButton-v2 span.blueButtonText,
+.spriteButton-v2 input.blueButtonText {
+    color: #fff
+}
+
+.spriteButton-v2:hover span.blueLeftDoor {
+    background-position: -129px -64px
+}
+
+.spriteButton-v2:hover a.blueButtonCenter,
+.spriteButton-v2:hover input.blueButtonCenter {
+    background-position: -273px -364px
+}
+
+.spriteButton-v2:hover span.blueRightDoor {
+    background-position: -153px -64px
+}
+
+.spriteButton-v2:hover span.blueRightDoorArrow {
+    background-position: -178px -64px
+}
+
+.spriteButton-v2 a.silverButtonCenter,
+.spriteButton-v2 input.silverButtonCenter,
+.spriteButton-v2 a.silverSecondaryButtonCenter,
+.spriteButton-v2 input.silverSecondaryButtonCenter {
+    background-color: #efeeee
+}
+
+.spriteButton-v2 span.silverLeftDoor {
+    background-position: -83px -14px
+}
+
+.spriteButton-v2 span.silverLeftDoorArrow {
+    background-position: -50px -14px
+}
+
+.spriteButton-v2 a.silverButtonCenter,
+.spriteButton-v2 input.silverButtonCenter {
+    background-position: -273px -64px
+}
+
+.spriteButton-v2 span.silverRightDoor {
+    background-position: -106px -14px
+}
+
+.spriteButton-v2 span.silverButtonText,
+.spriteButton-v2 input.silverButtonText {
+    color: #1f5e8b
+}
+
+.spriteButton-v2:hover span.silverLeftDoor {
+    background-position: -83px -64px
+}
+
+.spriteButton-v2:hover span.silverLeftDoorArrow {
+    background-position: -50px -64px
+}
+
+.spriteButton-v2:hover a.silverButtonCenter,
+.spriteButton-v2:hover input.silverButtonCenter {
+    background-position: -273px -314px
+}
+
+.spriteButton-v2:hover span.silverRightDoor {
+    background-position: -106px -64px
+}
+
+.spriteButton-v2 a.yellowButtonCenter,
+.spriteButton-v2 input.yellowButtonCenter {
+    background-color: #f0c600
+}
+
+.spriteButton-v2 span.yellowLeftDoor {
+    background-position: -211px -14px
+}
+
+.spriteButton-v2 a.yellowButtonCenter,
+.spriteButton-v2 input.yellowButtonCenter {
+    background-position: -265px -164px
+}
+
+.spriteButton-v2 span.yellowRightDoor {
+    background-position: -234px -14px
+}
+
+.spriteButton-v2 span.yellowButtonText,
+.spriteButton-v2 input.yellowButtonText {
+    color: #000
+}
+
+.spriteButton-v2:hover span.yellowLeftDoor {
+    background-position: -211px -64px
+}
+
+.spriteButton-v2:hover a.yellowButtonCenter,
+.spriteButton-v2:hover input.yellowButtonCenter {
+    background-position: -265px -414px
+}
+
+.spriteButton-v2:hover span.yellowRightDoor {
+    background-position: -234px -64px
+}
+
+.spriteButton-v2.disabled a.btnCenterBackground,
+.spriteButton-v2.disabled input.btnCenterBackground {
+    background-color: #f2f2f2
+}
+
+.spriteButton-v2.disabled span.btnLeftDoor {
+    background-position: -129px -114px
+}
+
+.spriteButton-v2.disabled a.btnCenterBackground,
+.spriteButton-v2.disabled input.btnCenterBackground {
+    background-position: -257px -214px
+}
+
+.spriteButton-v2.disabled span.btnRightDoor {
+    background-position: -154px -114px
+}
+
+.spriteButton-v2.disabled span.blueRightDoorArrow {
+    background-position: -178px -114px
+}
+
+.spriteButton-v2.disabled span.btnCenterText,
+.spriteButton-v2.disabled input.btnCenterText {
+    color: #666868
+}
+
+.spriteButton-v2 span.silverSecondaryLeftDoor {
+    background-position: -10px -24px;
+    height: 26px;
+    width: 10px
+}
+
+.spriteButton-v2 a.silverSecondaryButtonCenter,
+.spriteButton-v2 input.silverSecondaryButtonCenter {
+    background-position: -273px -24px;
+    height: 26px
+}
+
+.spriteButton-v2 span.silverSecondaryRightDoor {
+    background-position: -30px -24px;
+    height: 26px;
+    width: 10px
+}
+
+.spriteButton-v2 span.silverSecondaryButtonText,
+.spriteButton-v2 input.silverSecondaryButtonText {
+    font-size: 14px;
+    color: #069;
+    top: 7px
+}
+
+.spriteButton-v2:hover span.silverSecondaryLeftDoor {
+    background-position: -10px -74px
+}
+
+.spriteButton-v2:hover a.silverSecondaryButtonCenter,
+.spriteButton-v2 input.silverSecondaryButtonCenter {
+    background-position: -273px -274px
+}
+
+.spriteButton-v2:hover span.silverSecondaryRightDoor {
+    background-position: -30px -74px
+}
+
+.spriteButton-v2.disabled span.silverSecondaryLeftDoor {
+    background-position: -10px -24px
+}
+
+.spriteButton-v2.disabled a.silverSecondaryButtonCenter,
+.spriteButton-v2.disabled input.silverSecondaryButtonCenter {
+    background-position: -273px -24px
+}
+
+.spriteButton-v2.disabled span.silverSecondaryRightDoor {
+    background-position: -30px -24px
+}
+
+.spriteButton-v2.disabled span.silverSecondaryButtonText,
+.spriteButton-v2.disabled input.silverSecondaryButtonText {
+    color: #666868
+}
+
+.spriteButton-v2 a.silverSecondaryLeftArrow {
+    background-position: -53px -124px
+}
+
+.spriteButton-v2 a.silverSecondaryRightArrow {
+    background-position: -12px -124px
+}
+
+.spriteButton-v2.disabled a.silverSecondaryLeftArrow {
+    background-position: -220px -124px
+}
+
+.spriteButton-v2.disabled a.silverSecondaryRightArrow {
+    background-position: -93px -124px
+}
+
+a.icon,
+a.icon-v3 {
+    font-family: arial;
+    font-size: 12px;
+    color: #069;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+a.icon span,
+span.icon,
+th.sorting_asc a span,
+th.sorting_desc a span,
+th.sorting a span,
+.paging_full_numbers a.first,
+.paging_full_numbers a.previous,
+.paging_full_numbers a.next,
+.paging_full_numbers a.last {
+    background: url('../img/buttonSprites.gif') no-repeat scroll 0;
+    background-position: -53px -274px;
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+    top: 0
+}
+
+ul li a.icon span {
+    top: 3px
+}
+
+a span.newWindow {
+    background-position: -11px -161px
+}
+
+a span.layer {
+    background-position: -41px -163px
+}
+
+a span.transactions {
+    background-position: -71px -161px
+}
+
+a span.date {
+    background-position: -100px -161px
+}
+
+a span.email {
+    background-position: -132px -161px
+}
+
+a span.cancel {
+    background-position: -162px -161px
+}
+
+a span.sound {
+    background-position: -192px -161px
+}
+
+a span.play {
+    background-position: -221px -161px;
+    height: 20px;
+    width: 22px
+}
+
+a span.return {
+    background-position: -11px -192px
+}
+
+a span.representative {
+    background-position: -41px -192px
+}
+
+a span.telephone {
+    background-position: -131px -221px
+}
+
+a span.print {
+    background-position: -71px -192px
+}
+
+a span.mail {
+    background-position: -101px -192px
+}
+
+a span.attachment {
+    background-position: -132px -191px
+}
+
+a span.download {
+    background-position: -161px -192px
+}
+
+a span.export {
+    background-position: -192px -192px
+}
+
+a span.dotdot {
+    background-position: -10px -221px
+}
+
+a span.graph {
+    background-position: -221px -192px
+}
+
+a span.list {
+    background-position: -163px -282px
+}
+
+a span.listGrey {
+    background-position: -42px -221px
+}
+
+a span.graphGrey {
+    background-position: -190px -282px
+}
+
+a span.search {
+    background-position: -69px -221px;
+    height: 25px;
+    width: 25px
+}
+
+a span.cards {
+    background-position: -100px -223px;
+    height: 15px;
+    width: 25px
+}
+
+a span.expandLarge {
+    background-position: -160px -220px;
+    height: 21px;
+    width: 21px
+}
+
+a span.collapseLarge {
+    background-position: -190px -220px;
+    height: 21px;
+    width: 21px
+}
+
+a span.rolodex {
+    background-position: -221px -222px;
+    height: 17px;
+    width: 24px
+}
+
+a span.expand {
+    background-position: -13px -252px
+}
+
+a span.collapse {
+    background-position: -43px -252px
+}
+
+a span.sortAsc,
+th.sorting_asc a span,
+th.sorting a span {
+    background-position: -71px -252px
+}
+
+a span.sortDsc,
+th.sorting_desc a span {
+    background-position: -100px -252px
+}
+
+a span.whiteBlueArrowRight {
+    background-position: -132px -252px
+}
+
+a span.blueRightArrow {
+    background-position: -164px -252px
+}
+
+a span.close {
+    background-position: -193px -252px
+}
+
+a span.blueSearch {
+    background-position: -221px -249px;
+    height: 22px;
+    width: 24px
+}
+
+a span.dualLeftArrow,
+.paging_full_numbers a.first {
+    background-position: -11px -282px
+}
+
+a span.leftArrow,
+.paging_full_numbers a.previous {
+    background-position: -41px -282px
+}
+
+a span.rightArrow,
+.paging_full_numbers a.next {
+    background-position: -71px -282px
+}
+
+a span.dualRightArrow,
+.paging_full_numbers a.last {
+    background-position: -101px -282px
+}
+
+a span.bluePositive {
+    background-position: -131px -281px
+}
+
+a span.redDownArrow {
+    background-position: -228px -275px;
+    height: 15px;
+    width: 15px
+}
+
+a span.greyDownArrow {
+    background-position: -228px -286px;
+    height: 15px;
+    width: 15px
+}
+
+a span.blueDownArrow {
+    background-position: -228px -298px;
+    height: 15px;
+    width: 15px
+}
+
+span.greenCheck {
+    background-position: -12px -311px
+}
+
+span.redCross {
+    background-position: -43px -311px
+}
+
+span.blueInfo {
+    background-position: -71px -311px
+}
+
+span.redInfo {
+    background-position: -100px -311px;
+    height: 23px
+}
+
+span.greenTick {
+    background-position: -130px -311px
+}
+
+span.redExclamation {
+    background-position: -160px -311px
+}
+
+span.redExclamationLarge,
+span.greenTickLarge,
+span.blueInfoLarge {
+    height: 26px;
+    width: 26px
+}
+
+span.redExclamationLarge {
+    background-position: -42px -342px
+}
+
+span.greenTickLarge {
+    background-position: -12px -342px
+}
+
+span.blueInfoLarge {
+    background-position: -72px -342px
+}
+
+h2.alert {
+    padding: 8px 10px 3px 5px;
+    color: #414141;
+    font-weight: normal;
+    font-size: 12px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #fff
+}
+
+h2.alert span {
+    background: url("../img/buttonSprites.gif") no-repeat scroll 0 50% transparent;
+    display: block;
+    float: left;
+    height: 25px;
+    width: 20px;
+    margin-right: 5px;
+    margin-top: -3px
+}
+
+h2.blueAlert {
+    border: 3px solid #32679a
+}
+
+h2.blueAlert span {
+    background-position: -70px -309px
+}
+
+h2.redAlert {
+    border: 3px solid #c00
+}
+
+h2.redAlert span {
+    background-position: -160px -309px
+}
+
+h2.greenAlert {
+    border: 3px solid #019600
+}
+
+h2.greenAlert span {
+    background-position: -130px -309px
+}
+
+h2.redRTM {
+    border: 3px solid #c00;
+    background-color: #c00;
+    color: #fff
+}
+
+h2.redRTM span {
+    background-position: -101px -311px
+}
+
+.spriteButton-v3 {
+    cursor: pointer
+}
+
+.spriteButton-v3 span.btnLeftDoor {
+    background: url('../img/buttonSprites-v3.gif') no-repeat scroll 0;
+    background-position: -205px -127px;
+    float: left;
+    height: 27px;
+    width: 13px
+}
+
+.spriteButton-v3 a.btnCenterBackground {
+    background: url('../img/buttonSprites-v3.gif') no-repeat scroll 0;
+    background-position: -251px -127px;
+    float: left;
+    height: 27px;
+    padding: 0 2px 0 2px;
+    line-height: 5px;
+    text-decoration: none
+}
+
+.spriteButton-v3 span.btnRightDoor {
+    background: url('../img/buttonSprites-v3.gif') no-repeat scroll 0;
+    background-position: -230px -127px;
+    float: left;
+    height: 27px;
+    width: 13px
+}
+
+.spriteButton-v3 span.btnCenterText {
+    color: #27215d;
+    position: relative;
+    top: 11px;
+    font-size: 14px;
+    font-weight: bold
+}
+
+.spriteButton-v3 input.btnCenterText {
+    display: inline;
+    color: #effbfe
+}
+
+.spriteButton-v3 input.btnCenterBackground {
+    background: url('../img/buttonSprites-v3.gif') no-repeat scroll 0;
+    background-position: -8px -110px;
+    border: 0;
+    float: left;
+    height: 27px;
+    padding: 0 2px 0 2px;
+    margin: 0;
+    text-decoration: none;
+    width: auto;
+    overflow: visible;
+    font-size: 14px;
+    font-weight: bold
+}
+
+.spriteButton-v3 input.btnCenterText {
+    top: 0;
+    _top: 0;
+    top: 0
+}
+
+.spriteButton-v3:hover a.silverButtonCenter,
+.spriteButton-v3:hover input.silverButtonCenter,
+.spriteButton-v3:hover a.silverSecondaryButtonCenter,
+.spriteButton-v3:hover input.silverSecondaryButtonCenter {
+    background-color: #09306a
+}
+
+.spriteButton-v3:hover span.silverLeftDoor {
+    background-position: -205px -168px
+}
+
+.spriteButton-v3:hover a.silverButtonCenter,
+.spriteButton-v3:hover input.silverButtonCenter {
+    background-position: -251px -168px
+}
+
+.spriteButton-v3:hover span.silverRightDoor {
+    background-position: -230px -168px
+}
+
+.spriteButton-v3:hover span.silverButtonText,
+.spriteButton-v3:hover input.silverButtonText {
+    color: #fff
+}
+
+.spriteButton-v3 a.silverButtonCenter,
+.spriteButton-v3 input.silverButtonCenter,
+.spriteButton-v3 a.silverSecondaryButtonCenter,
+.spriteButton-v3 input.silverSecondaryButtonCenter {
+    background-color: #efeeee
+}
+
+.spriteButton-v3 span.silverLeftDoor,
+.spriteButton-v3.disabled span.silverLeftDoor {
+    background-position: -205px -127px
+}
+
+.spriteButton-v3 a.silverButtonCenter,
+.spriteButton-v3 input.silverButtonCenter,
+.spriteButton-v3.disabled a.silverButtonCenter,
+.spriteButton-v3.disabled input.silverButtonCenter {
+    background-position: -251px -127px
+}
+
+.spriteButton-v3 span.silverRightDoor,
+.spriteButton-v3.disabled span.silverRightDoor {
+    background-position: -230px -127px
+}
+
+.spriteButton-v3 span.silverButtonText,
+.spriteButton-v3 input.silverButtonText {
+    color: #27215d
+}
+
+.spriteButton-v3.disabled:hover a.silverButtonCenter,
+.spriteButton-v3.disabled:hover input.silverButtonCenter,
+.spriteButton-v3.disabled:hover a.silverSecondaryButtonCenter,
+.spriteButton-v3.disabled:hover input.silverSecondaryButtonCenter {
+    background-color: #efeeee
+}
+
+.spriteButton-v3.disabled span.btnCenterText,
+.spriteButton-v3.disabled input.btnCenterText {
+    color: #666868
+}
+
+a.icon-v3 span,
+span.icon-v3 {
+    background: url('../img/buttonSprites-v3.gif') no-repeat scroll 0;
+    background-position: 0 0;
+    width: 20px;
+    height: 20px;
+    float: left;
+    position: relative;
+    top: 0
+}
+
+a.icon-v3 span.email {
+    background-position: -88px -51px
+}
+
+a.icon-v3 span.emailActive {
+    background-position: -64px -51px
+}
+
+a.icon-v3 span.shopping {
+    background-position: -177px -8px
+}
+
+a.icon-v3 span.mobileDevice {
+    background-position: -208px -8px;
+    height: 23px
+}
+
+a.icon-v3 span.hand {
+    background-position: -233px -5px;
+    height: 25px;
+    width: 25px
+}
+
+a.icon-v3 span.secureShopping {
+    background-position: -266px -7px;
+    height: 25px
+}
+
+a.icon-v3 span.tickets {
+    background-position: -323px -10px;
+    width: 25px
+}
+
+a.icon-v3 span.airplane {
+    background-position: -355px -8px;
+    height: 25px
+}
+
+a.icon-v3 span.gift {
+    background-position: -384px -8px;
+    height: 25px;
+    width: 25px
+}
+
+a.icon-v3 span.pdf {
+    background-position: -415px -10px
+}
+
+a.icon-v3 span.rightRoundedArrow {
+    background-position: -121px -5px
+}
+
+a.icon-v3 span.leftRoundedArrow {
+    background-position: -122px -24px
+}
+
+a.icon-v3 span.megaphone {
+    background-position: -144px -39px;
+    height: 25px;
+    width: 25px
+}
+
+a.icon-v3 span.giftCard {
+    background-position: -172px -40px;
+    width: 27px
+}
+
+a.icon-v3 span.dining {
+    background-position: -203px -39px;
+    width: 27px
+}
+
+a.icon-v3 span.addCard {
+    background-position: -233px -40px;
+    width: 25px
+}
+
+a.icon-v3 span.speechBubble {
+    background-position: -262px -40px;
+    width: 30px
+}
+
+a.icon-v3 span.cogs {
+    background-position: -353px -36px;
+    height: 25px;
+    width: 27px
+}
+
+a.icon-v3 span.star {
+    background-position: -387px -40px
+}
+
+a.icon-v3 span.refresh {
+    background-position: -120px -76px;
+    height: 25px
+}
+
+a.icon-v3 span.upArrow {
+    background-position: -144px -71px
+}
+
+a.icon-v3 span.downArrow {
+    background-position: -144px -88px
+}
+
+a.icon-v3 span.leftGreyArrow {
+    background-position: -227px -78px;
+    height: 25px
+}
+
+a.icon-v3 span.rightGreyArrow {
+    background-position: -249px -78px;
+    height: 25px
+}
+
+a.icon-v3 span.leftBlueArrow {
+    background-position: -270px -78px;
+    height: 25px
+}
+
+a.icon-v3 span.rightBlueArrow {
+    background-position: -292px -78px;
+    height: 25px
+}
+
+a.icon-v3 span.positiveWhite {
+    background-position: -338px -77px
+}
+
+a.icon-v3 span.negativeWhite {
+    background-position: -315px -77px
+}
+
+a.icon-v3 span.positiveBlue {
+    background-position: -338px -100px
+}
+
+a.icon-v3 span.negativeBlue {
+    background-position: -315px -100px
+}
+
+a.icon-v3 span.positiveNavy {
+    background-position: -359px -96px
+}
+
+a.icon-v3 span.negativeNavy {
+    background-position: -397px -104px
+}
+
+a.icon-v3 span.positiveGrey {
+    background-position: -359px -76px
+}
+
+a.icon-v3 span.negativeGrey {
+    background-position: -378px -76px
+}
+
+a.icon-v3 span.calendar {
+    background-position: -426px -81px;
+    width: 25px
+}
+
+a.icon-v3 span.calendarRecur {
+    background-position: -455px -77px;
+    height: 22px;
+    width: 25px
+}
+
+a.icon-v3 span.emailGrey {
+    background-position: -4px -118px
+}
+
+a.icon-v3 span.emailBlue {
+    background-position: -30px -118px
+}
+
+a.icon-v3 span.speechBubbleGrey {
+    background-position: -55px -117px
+}
+
+a.icon-v3 span.speechBubbleBlue {
+    background-position: -80px -117px
+}
+
+a.icon-v3 span.questionMarkGrey {
+    background-position: -105px -118px
+}
+
+a.icon-v3 span.questionMarkBlue {
+    background-position: -129px -118px
+}
+
+a.icon-v3 span.telephoneGrey {
+    background-position: -153px -118px
+}
+
+a.icon-v3 span.telephoneBlue {
+    background-position: -178px -118px
+}
+
+a.icon-v3 span.telephoneHandsetGrey {
+    background-position: -5px -143px
+}
+
+a.icon-v3 span.rightRoundedHorizontalArrow {
+    background-position: -3px -34px
+}
+
+a.icon-v3 span.leftRoundedHorizontalArrow {
+    background-position: -3px -55px
+}
+
+span.icon-v3.warning {
+    background-position: -145px -9px;
+    width: 21px
+}
+
+span.icon-v3.greenCheck {
+    background-position: -195px -75px;
+    width: 21px
+}
+
+span.icon-v3.whiteInfo {
+    background-position: -11px -6px;
+    height: 25px;
+    width: 25px
+}

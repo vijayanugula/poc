@@ -1,0 +1,430 @@
+/*--- Styles for IOA predictive search implementation */
+
+#iNavNGI_Header #iNavHeaderCont #iNavSearch {
+    z-index: 4000 !important;
+}
+
+#iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+    right: 0;
+    width: 390px;
+    /*sep 12th*/
+    -webkit-box-shadow: -1px 5px 13px rgba(154, 161, 163, 0.75);
+    -moz-box-shadow: -1px 5px 13px rgba(154, 161, 163, 0.75);
+    box-shadow: -1px 5px 13px rgba(154, 161, 163, 0.75);
+    border: 1px solid gray;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0px;
+    top: 32px;
+    clear: both;
+    position: absolute;
+    z-index: 3992;
+    display: none;
+    top: 30px;
+    background-color: #fff;
+    font-size: 16px !important;
+}
+
+.res_Medium.res_750 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+    left: -170px !important;
+    top: 26px !important;
+}
+
+.res_Medium.res_800 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv,
+.res_Large.res_800 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+    left: -122px !important;
+    top: 26px !important;
+}
+
+.res_Large.res_850 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv,
+.res_Large.res_900 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv,
+.res_Large.res_950 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+    left: -73px !important;
+    top: 26px !important;
+}
+
+.res_Large.res_1000 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+    left: 612px !important;
+    top: 58px !important;
+}
+
+.res_Large.res_1000 #iNavNGI_Header.ca-fr #iNavHeaderCont #iNavPSDiv {
+    left: 612px !important;
+    top: 73px !important;
+}
+
+.res_Large.res_1050 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+    left: 643px !important;
+    top: 73px !important;
+}
+
+.res_Large.res_1100 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+    left: 668px !important;
+    top: 57px !important;
+}
+
+.res_Large.res_1150 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+    left: 684px !important;
+    top: 57px !important;
+}
+
+.res_Large.res_1200 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+    left: 724px !important;
+    top: 57px !important;
+}
+
+.res_Large.res_1250 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+    left: 770px !important;
+    top: 57px !important;
+}
+
+.res_Large.res_1300 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+    left: 780px !important;
+    top: 57px !important;
+}
+
+.res_Large.res_1050 #iNavNGI_Header.ca-fr #iNavHeaderCont #iNavPSDiv {
+    left: 653px !important;
+    top: 72px !important;
+}
+
+.res_Large.res_1100 #iNavNGI_Header.ca-fr #iNavHeaderCont #iNavPSDiv {
+    left: 668px !important;
+    top: 72px !important;
+}
+
+.res_Large.res_1150 #iNavNGI_Header.ca-fr #iNavHeaderCont #iNavPSDiv {
+    left: 693px !important;
+    top: 72px !important;
+}
+
+.res_Large.res_1200 #iNavNGI_Header.ca-fr #iNavHeaderCont #iNavPSDiv {
+    left: 724px !important;
+    top: 72px !important;
+}
+
+.res_Large.res_1250 #iNavNGI_Header.ca-fr #iNavHeaderCont #iNavPSDiv {
+    left: 770px !important;
+    top: 72px !important;
+}
+
+.res_Large.res_1300 #iNavNGI_Header.ca-fr #iNavHeaderCont #iNavPSDiv {
+    left: 780px !important;
+    top: 70px !important;
+}
+
+.res_Large.res_1350 #iNavNGI_Header.ca-fr #iNavHeaderCont #iNavPSDiv,
+.res_Large.res_1400 #iNavNGI_Header.ca-fr #iNavHeaderCont #iNavPSDiv {
+    top: 72px !important;
+}
+
+.res_Large.res_1250 #iNavNGI_Header.ca-fr #iNavHeaderCont #iNavPSDiv {
+    top: 70px !important;
+}
+
+#iNavNGI_Header #iNavHeaderCont .searchRow {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+#iNavNGI_Header #iNavHeaderCont .searchright {
+    width: initial;
+}
+
+@-moz-document url-prefix() {
+    .res_Large.res_1350 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv,
+    .res_Large.res_1300 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv,
+    .res_Large.res_1250 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv,
+    .res_Large.res_1200 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv,
+    .res_Large.res_1150 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv,
+    .res_Large.res_1100 #iNavNGI_Header #iNavHeaderCont #iNavPSDiv {
+        top: 58px !important;
+    }
+    .res_Large.res_1300 #iNavNGI_Header.ca-fr #iNavHeaderCont #iNavPSDiv {
+        top: 73px !important;
+    }
+}
+
+#iNavNGI_Header #iNavHeaderCont .searchRow {
+    float: left;
+    padding: 12px 15px 10px;
+    /*sep 12th*/
+    width: 360px;
+    /*sep 12th*/
+}
+
+#iNavNGI_Header #iNavHeaderCont .searchRow:hover {
+    background: #F2F2F2;
+    cursor: pointer;
+}
+
+#iNavNGI_Header #iNavHeaderCont .searchImage {
+    float: left;
+    margin-top: 3px;
+    display: none;
+}
+
+#iNavNGI_Header #iNavHeaderCont .searchright {
+    margin-left: 15px;
+    width: 90%;
+}
+
+#iNavNGI_Header #iNavHeaderCont .predictiveresults h3:first-child {
+    border: none;
+}
+
+#iNavNGI_Header #iNavHeaderCont .predictiveresults h3 {
+    margin: 0px 0px 0 15px;
+    /*sep 12th*/
+    font-weight: bold;
+    /*color: #4d4f53;*/
+    color: rgb(95, 98, 102);
+    padding: 12px 0 0;
+    /*sep 12th*/
+    width: 360px;
+    /*sep 12th*/
+    border-top: 1px solid #ddd;
+    font-size: 62.5%;
+    float: none !important;
+    clear: both;
+    text-transform: uppercase;
+}
+
+#iNavNGI_Header #iNavHeaderCont .predictiveresults a {
+    color: rgb(0, 123, 162);
+    /*sep 12th*/
+    font-weight: bold;
+    font-size: 75%;
+    margin-bottom: 5px;
+    float: none;
+    display: block;
+}
+
+#iNavNGI_Header #iNavHeaderCont .predictiveresults a.addcolor {
+    color1: #fff;
+}
+
+#iNavNGI_Header #iNavHeaderCont .searchDesc {
+    font-size: 75%;
+    color: #4d4f53;
+}
+
+#iNavNGI_Header #iNavHeaderCont .searchDesc.addcolor {
+    color1: #4d4f53;
+}
+
+#iNavNGI_Header #iNavHeaderCont #searchheader {
+    width: 371px;
+    color: rgb(255, 255, 255);
+    font-size: 100%;
+    padding: 15px 0px 15px 20px;
+    font-weight: bold;
+    border-radius: 4px 4px 0 0;
+    background-color: #006890;
+}
+
+#iNavNGI_Header #iNavHeaderCont .newPred_Search_suggliston {
+    background: #F2F2F2 !important;
+    color: #fff !important;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-raius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+#iNavNGI_Header #iNavHeaderCont .newPred_Search_sugglistoff {
+    background-color: #fff;
+    color: #369;
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchincreasewidth {
+    width: 330px;
+}
+
+#iNavNGI_Header #iNavHeaderCont {
+    /*width:100%;*/
+}
+
+.searchImage~a,
+.searchImage~.searchDesc {
+    width: 100%
+}
+
+.searchRow.srchincreasewidth {
+    width: 100%;
+    clear: both;
+}
+
+.searchRow.srchincreasewidth .searchDesc,
+.searchRow.srchincreasewidth a {
+    width: 100%
+}
+
+#iNavNGI_Header #iNavHeaderCont #srchnoresults {
+    padding: 10px;
+}
+
+#iNavNGI_Header #iNavHeaderCont #srchpredclosespan {
+    float: right !important;
+    margin-right: 20px !important;
+    *margin-top: -15px !important;
+}
+
+#iNavNGI_Header #iNavHeaderCont #srchrecommendedsection {
+    padding: 0;
+    background-color: #fff;
+    width: 390px
+}
+
+#iNavNGI_Header #iNavHeaderCont #srchrecommendedsection:hover {
+    background: #F2F2F2;
+    cursor: pointer;
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchsectionheader {
+    width: 365px/*sep 12th*/
+    ;
+    border-top: 1px solid #ddd;
+    padding: 15px 10px 15px 15px;
+    font-size: 75%;
+    font-weight: bold;
+    color: #4d4f53;
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchrecommendedresult {
+    width: 330px;
+    padding: 0 10px
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchrecommendedresult.searchRow {
+    padding: 10px 10px
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchrecommendedimg {
+    background: url("https://web.aexp-static.com/common/css/images/greyLiteBig.gif") 0 0 no-repeat;
+    height: 20px;
+    width: 27px;
+    margin-right: 15px;
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchRecommendeDesc {
+    display: inline-block;
+    maring-top: 4px;
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchRecommendeDesc a {
+    color: #006890;
+    font-weight: bold;
+    font-size: 75%;
+}
+
+#iNavNGI_Header #iNavHeaderCont .Services {
+    background: url("https://web.aexp-static.com/common/css/images/greyLiteBig.gif") -27px 0px no-repeat;
+    height: 21px;
+    width: 22px;
+}
+
+#iNavNGI_Header #iNavHeaderCont .Products,
+#iNavNGI_Header #iNavHeaderCont .Produits {
+    background: url("https://web.aexp-static.com/common/css/images/greyLiteBig.gif") 0 0 no-repeat;
+    height: 20px;
+    width: 27px;
+}
+
+#iNavNGI_Header #iNavHeaderCont .Benefits,
+#iNavNGI_Header #iNavHeaderCont .Avantages {
+    background: url("https://web.aexp-static.com/common/css/images/greyLiteBig.gif") -49px 0 no-repeat;
+    height: 20px;
+    width: 28px;
+}
+
+#iNavNGI_Header #iNavHeaderCont .Support,
+#iNavNGI_Header #iNavHeaderCont .Aide {
+    background: url("https://web.aexp-static.com/common/css/images/greyLiteBig.gif") -77px 0 no-repeat;
+    height: 21px;
+    width: 22px;
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchinnersearchall {
+    padding: 10px;
+    margin: 10px auto 0;
+    color: #006890;
+    font-weight: bold;
+    float: none;
+    text-align: center;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-raius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchinnersearchall:hover {
+    background: #F2F2F2;
+    cursor: pointer;
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-raius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchsearchall {
+    float: none;
+    text-align: center;
+}
+
+#iNavNGI_Header #iNavHeaderCont #srchsearchallsection {
+    width: 390px/*sep 12th*/
+    ;
+    border-radius: 5px;
+    text-align: center;
+    background-color: #fff;
+}
+
+#iNavNGI_Header #iNavHeaderCont #srchsearchallsection .searchRow {
+    padding: 0px;
+    width: 390px;
+}
+
+#iNavNGI_Header #iNavHeaderCont #srchsearchallsection .srchinnersearchall a {
+    margin-top: 0px;
+}
+
+#iNavNGI_Header #iNavHeaderCont #srchsearchallsection .newPred_Search_suggliston,
+#iNavNGI_Header #iNavHeaderCont #srchsearchallsection .searchRow {
+    -moz-border-radius: 0 0 5px 5px;
+    -webkit-border-raius: 0 0 5px 5px;
+    border-radius: 0 0 5px 5px;
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchinnersearchall a {
+    padding: 5px/*sep 12th*/
+    ;
+    display: inline-block;
+    margin-top: 10px;
+    color: rgb(0, 123, 162);
+    font-weight: bold;
+    float: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 62.5%;
+    width: 360px;
+}
+
+#iNavNGI_Header #iNavHeaderCont .srchinnersearchall a:hover {
+    background: #F2F2F2;
+    cursor: pointer;
+}
+
+.ca-en #srchAYLF,
+#iNavPSDiv #srchAYLF {
+    font-size: 13px !important;
+    margin-right: 5px !important;
+    margin-left: 15px !important;
+}
+
+.ca-en #bbanner,
+#iNavPSDiv #bbanner {
+    margin-top: 1px !important;
+}
+
+.ca-en .searchright,
+#iNavPSDiv .searchright {
+    width: 90% !important;
+}

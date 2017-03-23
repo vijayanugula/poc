@@ -1,0 +1,23 @@
+{
+    "name": "POC",
+    "version": "1.0.0",
+    "description": "Amex POC using React",
+    "main": "src/server/index.js",
+    "scripts": {
+        "start": "npm run webpack & node src/server/index.js",
+        "postinstall": "webpack --config config/webpack.js",
+        "webpack": "webpack --config config/webpack.js",
+        "webpack-watch": "webpack --config config/webpack.js --watch --colors"
+    },
+    "dependencies": {
+        "express": "^4.12.3",
+        "react": "^0.13.1"
+    },
+    "devDependencies": {
+        "babel": "^5.0.12",
+        "babel-core": "^5.0.12",
+        "babel-loader": "^5.0.0",
+        "jest-cli": "^0.4.0",
+        "webpack": "^1.8.4"
+    }
+}

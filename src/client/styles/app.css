@@ -1,0 +1,5431 @@
+.showPopup {
+    display: block;
+    margin: 0 auto;
+    padding: 5%;
+    width: 90%;
+    font-size: 14px;
+    line-height: 25px;
+    z-index: 9999;
+    position: relative
+}
+
+a {
+    color: #0000ff;
+    text-decoration: underline
+}
+
+#popupWrapper .close-main {
+    float: right;
+    margin: 10px 0;
+    cursor: pointer
+}
+
+.popup-content {
+    padding: 10px
+}
+
+.popup-content ul {
+    margin-left: 2%;
+    font-family: Bentonsans, Arial, Helvetica, sans-serif !important
+}
+
+.popup-content ul li {
+    margin-top: 1% !important
+}
+
+.MsoNormal span {
+    font-family: Bentonsans, Arial, Helvetica, sans-serif !important;
+    font-size: 14px !important;
+    line-height: 18px
+}
+
+#popupWrapper p {
+    line-height: 20px
+}
+
+@media only screen and (min-width: 831px) {
+    .popup-section {
+        background-color: #EBF0F0;
+        border-radius: 10px 10px 10px 10px;
+        padding: 2%;
+        width: 96%
+    }
+    .showPopup {
+        width: 75%
+    }
+    .popup-content {
+        background-color: #FFFFFF;
+        border: 1px solid #CBDADA;
+        border-radius: 5px 5px 5px 5px;
+        padding: 10px
+    }
+    .declarationLogo {
+        background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/en_AU/common/images/amex-logo.gif") no-repeat right top;
+        margin-top: 35px;
+        height: 54px
+    }
+    #popupWrapper .close-main .popup_close {
+        font-size: 20px;
+        font-family: Arial;
+        font-weight: bold;
+        text-decoration: underline
+    }
+}
+
+.cancel-overlay {
+    position: absolute;
+    z-index: 9999;
+    background-color: #FFFFFF;
+    width: 320px;
+    padding: 15px 15px 30px 15px;
+    text-align: center;
+    border-radius: 5px;
+    left: 27%;
+    top: 0
+}
+
+@media (max-width: 660px) {
+    .cancel-overlay {
+        padding-bottom: 25px;
+        width: 285px;
+        left: 1.5%
+    }
+}
+
+.cancel-overlay .overlayClose {
+    width: 24px;
+    height: 24px;
+    float: right;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") -7px -98px no-repeat transparent;
+    cursor: pointer
+}
+
+.cancel-overlay .cancelOverlayTxt {
+    margin-top: 35px;
+    margin-bottom: 25px;
+    font-size: 16px;
+    font-family: BentonSans;
+    color: #4D4F52
+}
+
+.cancel-overlay .cancelYesBtn,
+.cancel-overlay .cancelNoBtn {
+    width: 40%;
+    display: inline-block
+}
+
+.cancel-overlay .cancelYesBtn button,
+.cancel-overlay .cancelNoBtn button {
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    font-family: BentonSans-Md;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    height: 40px
+}
+
+.cancel-overlay .cancelYesBtn {
+    margin-right: 42px
+}
+
+.cancel-overlay .cancelYesBtn button {
+    color: #666666;
+    background-color: #EFEFEF
+}
+
+.cancel-overlay .cancelNoBtn button {
+    color: #FFFFFF;
+    background-color: #278835
+}
+
+#cs_comp {
+    width: 100%
+}
+
+.csc_sectionHeader {
+    width: 99%;
+    background-color: #EFEEEE;
+    padding-left: 1%
+}
+
+.csc_sectionHeader h2 {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 20px 0
+}
+
+.csc_sectionHeader h2 .csc_header_Icon {
+    width: 45px;
+    height: 45px;
+    float: left;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -389px -167px transparent;
+    margin-right: 10px;
+    vertical-align: middle
+}
+
+.csc_sectionHeader h2 .csc_header_Txt {
+    width: 80%;
+    display: inline-block;
+    font-size: 16px;
+    color: #002263;
+    font-family: BentonSans;
+    font-weight: normal
+}
+
+.csc_sectionHeader h2 .csc_header_Txt .productName {
+    font-family: BentonSans-Md
+}
+
+.csc_sectionContent {
+    max-width: 750px;
+    margin: 0 auto;
+    margin-top: 30px;
+    padding: 1%
+}
+
+.csc_sectionContent input[type="checkbox"] {
+    opacity: 0
+}
+
+#csc_subheader {
+    font-family: BentonSans;
+    font-size: 26px;
+    color: #4D4F53;
+    margin-bottom: 40px;
+    text-align: center
+}
+
+#csc_sectionsubheader {
+    margin-bottom: 38px;
+    font-size: 16px;
+    text-align: center
+}
+
+#csc_checkbox_container {
+    width: 90%;
+    display: inline-block;
+    margin-bottom: 20px
+}
+
+#csc_checkbox_container .unchkCheckboxLabel {
+    float: left;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -114px -86px transparent
+}
+
+#csc_checkbox_container .chkCheckboxLabel {
+    float: left;
+    margin-right: 10px;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -114px -121px transparent
+}
+
+#csc_checkbox_container #csc_checkbox_label {
+    font-size: 13px;
+    font-family: BentonSans;
+    color: #4D4F53
+}
+
+#csc_checkbox_container .csc_checkbox_container_text a {
+    font-size: 13px;
+    font-family: BentonSans
+}
+
+#csc_applyhelp {
+    font-size: 11px;
+    color: #4D4F53;
+    font-family: BentonSans;
+    margin-top: 10px
+}
+
+#csc_apply_terms {
+    font-size: 13px;
+    color: #4D4F53;
+    font-family: BentonSans;
+    margin: 20px 0
+}
+
+#csc_errormessage {
+    color: #E1242B;
+    font-size: 13px;
+    margin-bottom: 15px;
+    display: none;
+    width: 100%
+}
+
+#csc_errormessage .error-arrow {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -159px -10px transparent;
+    float: left;
+    width: 34px;
+    height: 35px;
+    margin-right: 10px
+}
+
+#csc_errormessage .csc_errormessage_text {
+    display: inline-block;
+    width: 89%;
+    margin-top: 10px
+}
+
+#csc_rewards_header {
+    text-align: center
+}
+
+#csc_rewards_text {
+    font-size: 16px;
+    color: #002263;
+    font-family: BentonSans;
+    width: 100%
+}
+
+.csc_rewards_Icon {
+    width: 15px;
+    height: 10px;
+    display: inline-block;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -357px -286px transparent
+}
+
+#csc_rewards {
+    margin: 20px 0 30px 0
+}
+
+#csc_rewards div.rewardBenefits {
+    float: left;
+    width: 33%;
+    text-align: center;
+    border-right: 1px solid #CCC;
+    min-height: 100px
+}
+
+#csc_rewards div.rewardBenefits:nth-child(3) {
+    border-right: 0
+}
+
+#csc_rewards div.rewardBenefits p {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 13px
+}
+
+#csc_rewards div.rewardBenefits span.moviePriv {
+    width: 44px;
+    height: 33px;
+    display: inline-block;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -389px -45px transparent
+}
+
+#csc_rewards div.rewardBenefits span.annualFee {
+    width: 33px;
+    height: 33px;
+    display: inline-block;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -389px -6px transparent
+}
+
+#csc_rewards div.rewardBenefits span.travelInsurance {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -389px -85px transparent
+}
+
+.bottomContentLinks {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 40px
+}
+
+.bottomContentLinks a {
+    padding: 0 10px;
+    border-right: 1px solid #CCC;
+    font-size: 13px;
+    font-family: BentonSans
+}
+
+.bottomContentLinks a:last-child {
+    border-right: 0
+}
+
+#declarationContainer {
+    width: 100%
+}
+
+#crossSellCardArt {
+    max-width: 32%;
+    float: right
+}
+
+#crossSellCardArt img {
+    width: 100%
+}
+
+#crossSellButtons {
+    width: 64%;
+    margin-right: 4%;
+    display: inline-block
+}
+
+.clear {
+    clear: both
+}
+
+#overlay {
+    opacity: 0.3;
+    background: #000
+}
+
+#overlay,
+#overlayContent {
+    visibility: hidden;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    z-index: 9994
+}
+
+#csc_overlay_content {
+    visibility: hidden
+}
+
+#overlay div {
+    width: 300px;
+    margin: 100px auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    padding: 15px;
+    text-align: center
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0
+}
+
+#csc_accept_btn {
+    color: #FFFFFF;
+    font-size: 15px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 42%;
+    margin-right: 16%
+}
+
+#csc_skip_btn {
+    color: #FFFFFF;
+    font-size: 15px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 42%;
+    float: right;
+    background-color: #FFFFFF;
+    border: 1px solid #002263;
+    color: #002263
+}
+
+.csc_grey_button {
+    background: #efefef
+}
+
+.csc_accept_normal_button {
+    background: #278835
+}
+
+#csc_overlay_content {
+    z-index: 9999
+}
+
+@media screen and (min-width: 320px) and (max-width: 660px) {
+    .csc_sectionHeader h2 {
+        text-align: center;
+        padding: 15px auto
+    }
+    .csc_sectionHeader h2 .csc_header_Txt {
+        width: 94%;
+        font-size: 15px
+    }
+    .csc_sectionHeader h2 .csc_header_Icon {
+        float: none;
+        display: inline-block;
+        margin-bottom: 10px
+    }
+    .csc_sectionContent {
+        margin: 0 10px
+    }
+    #crossSellCardArt {
+        max-width: 181px;
+        float: none;
+        margin: 0 auto
+    }
+    #crossSellButtons {
+        width: 99%
+    }
+    #csc_checkbox_container {
+        width: 100%
+    }
+    #csc_checkbox_container .csc_checkbox_container_text {
+        width: 80%;
+        display: inline-block
+    }
+    #csc_rewards div.rewardBenefits {
+        width: 100%;
+        border-right: 0px;
+        margin-bottom: 30px;
+        min-height: 1px
+    }
+    .bottomContentLinks a {
+        width: 40%;
+        display: inline-block
+    }
+    #csc_subheader {
+        margin: 15px auto;
+        font-size: 18px;
+        text-align: center
+    }
+    #csc_sectionsubheader {
+        margin-top: 15px;
+        margin-bottom: 25px;
+        text-align: center
+    }
+    #csc_checkbox {
+        float: right;
+        margin-top: -50px
+    }
+    #csc_apply_terms {
+        margin-bottom: 30px
+    }
+    #csc_rewards {
+        margin-bottom: 0px
+    }
+    #csc_errormessage .csc_errormessage_text {
+        margin-top: 0px
+    }
+    #csc_errormessage .error-arrow {
+        background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -168px -52px transparent;
+        float: left;
+        width: 17px;
+        height: 17px
+    }
+}
+
+@media screen and (max-width: 320px) {
+    body {
+        width: 320px
+    }
+    .csc_sectionHeader h2 {
+        text-align: center;
+        padding: 15px auto
+    }
+    .csc_sectionHeader h2 .csc_header_Txt {
+        width: 94%;
+        font-size: 15px
+    }
+    .csc_sectionHeader h2 .csc_header_Icon {
+        float: none;
+        display: inline-block;
+        margin-bottom: 10px
+    }
+    .csc_sectionContent {
+        margin: 0 10px
+    }
+    #crossSellCardArt {
+        max-width: 181px;
+        float: none;
+        margin: 0 auto
+    }
+    #crossSellButtons {
+        width: 99%
+    }
+    #csc_checkbox_container {
+        width: 100%
+    }
+    #csc_checkbox_container .csc_checkbox_container_text {
+        width: 80%;
+        display: inline-block
+    }
+    #csc_rewards div.rewardBenefits {
+        width: 100%;
+        border-right: 0px;
+        margin-bottom: 30px;
+        min-height: 1px
+    }
+    .bottomContentLinks a {
+        width: 40%;
+        display: inline-block
+    }
+    #csc_subheader {
+        margin: 15px auto;
+        font-size: 18px
+    }
+    #csc_sectionsubheader {
+        margin-top: 15px;
+        margin-bottom: 25px
+    }
+    #csc_checkbox {
+        float: right;
+        margin-top: -50px
+    }
+    #csc_apply_terms {
+        margin-bottom: 30px
+    }
+    #csc_rewards {
+        margin-bottom: 0px
+    }
+    #csc_errormessage .csc_errormessage_text {
+        margin-top: 0px
+    }
+    #csc_errormessage .error-arrow {
+        background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -168px -52px transparent;
+        float: left;
+        width: 17px;
+        height: 17px
+    }
+}
+
+#eligibilityCriteriaContainer {
+    position: absolute;
+    width: 96%;
+    z-index: 9999;
+    left: 2%;
+    top: -80px;
+    background-color: #FFF
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer {
+        width: 90%;
+        left: 4%;
+        top: -95px
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria {
+    width: 100%
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayHeaderContent {
+    width: 96%;
+    padding: 1% 2%;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #CCC
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayHeaderContent {
+        width: 95%;
+        padding: 3% 2.5%
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayHeaderContent .overlayClose {
+    width: 24px;
+    height: 24px;
+    float: right;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") -7px -98px no-repeat transparent;
+    cursor: pointer
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayHeaderContent h4 {
+    font-family: "BentonSans";
+    font-size: 15px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    float: left;
+    padding-top: 6px
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent {
+    width: 96%;
+    padding: 0 2%;
+    padding-top: 25px;
+    padding-bottom: 20px
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayContent {
+        width: 92%;
+        padding: 4%;
+        padding-bottom: 10px
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .terms-header {
+    font-size: 13px;
+    font-family: BentonSans;
+    color: #000
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .terms-header p {
+    font-family: BentonSans-Md
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .sectionContent {
+    font-size: 13px
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .sectionContent .impSuppHead {
+    margin: 20px 0;
+    display: inline-block
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .left-section {
+    width: 60%;
+    margin-right: 2%;
+    float: left
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .left-section {
+        width: 100%;
+        margin-bottom: 30px
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .left-section ul {
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    line-height: 15px;
+    padding-left: 0%
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .left-section ul li {
+    list-style-type: none;
+    margin: 20px 0
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .left-section ul li .tick {
+    width: 15px;
+    height: 13px;
+    display: inline-block;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat scroll -441px -18px transparent;
+    vertical-align: top;
+    margin-right: 5px
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .left-section ul li .eligibilityContent {
+    display: inline-block;
+    width: 90%
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .left-section .cancelApp {
+    margin-top: 10px
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .left-section a {
+    text-decoration: underline;
+    color: #00F
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .left-section .cancelLink {
+    margin-top: 30px
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section {
+    width: 38%;
+    float: left
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section {
+        width: 100%
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    line-height: 25px
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li {
+    border-bottom: 1px solid #CCC;
+    margin: 10px 0
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li a {
+    text-decoration: underline;
+    color: #00F;
+    position: relative;
+    top: -7px
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li .document {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat scroll -266px -174px transparent;
+    width: 19px;
+    height: 23px;
+    display: inline-block;
+    margin-right: 10px
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li .faq {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat scroll -157px -294px transparent;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-right: 10px
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li.faq {
+    border-bottom: none
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li.faq a {
+    display: inline-block;
+    width: 76%;
+    top: -11px;
+    line-height: 18px
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li.faq a {
+        width: 72%
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li .phone {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat scroll -114px -294px transparent;
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    margin-right: 10px
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li.phone {
+    border-bottom: none;
+    margin-top: 20px
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li.phone a {
+    display: inline-block;
+    width: 76%;
+    top: -12px;
+    line-height: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3F9C35
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li.phone a {
+        top: -17px
+    }
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li.phone a {
+        width: 72%
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section ul li.phone span {
+    display: block;
+    width: 76%;
+    margin-top: -30px;
+    margin-left: 45px;
+    line-height: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    color: #3F9C35
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section .dailANumber {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    display: inline-block
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section .helpdailText {
+    color: #3F9C35;
+    font-weight: bold
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayContent .right-section .faqLinkIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    display: inline-block
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent {
+    float: left;
+    width: 100%
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .getStartedlink {
+    float: right;
+    background-color: #3F9C35;
+    padding: 2% 12%
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .getStartedlink {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding: 14px 0;
+        text-align: center;
+        border-radius: 5px
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .getStartedlink a {
+    text-decoration: none;
+    color: #FFF;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: BentonSans;
+    float: left;
+    font-weight: bold
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .getStartedlink a {
+        float: none
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .getStartedlink a .rightArrow {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -13px -217px transparent;
+    float: right;
+    width: 12px;
+    height: 17px;
+    margin-left: 5px;
+    margin-top: 2px
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .getStartedlink a .rightArrow {
+        float: none;
+        display: inline-block;
+        background-position: -13px -216px
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .getStartedlink a .overLayFlowText {
+    float: left;
+    margin-top: 2px
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .getStartedlink a .overLayFlowText {
+        float: none
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .backLink {
+    float: left;
+    background-color: #efefef;
+    padding: 2% 7%
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .backLink {
+        float: none;
+        width: 90%;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding: 14px 0;
+        text-align: center;
+        border-radius: 5px
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .backLink a {
+    text-decoration: none;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: BentonSans;
+    color: #666666;
+    float: left;
+    margin-top: 1px;
+    font-weight: bold
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .backLink a {
+        float: none
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .backLink a .leftArrow {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat scroll -13px -178px transparent;
+    float: left;
+    width: 12px;
+    height: 17px;
+    margin-right: 5px
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .backLink a .leftArrow {
+        float: none;
+        display: inline-block;
+        background-position: -13px -177px
+    }
+}
+
+#eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .backLink a .overLayFlowTextBack {
+    float: left;
+    margin-top: 1px
+}
+
+@media (max-width: 660px) {
+    #eligibilityCriteriaContainer .eligibilityCriteria .overlayBottomContent .backLink a .overLayFlowTextBack {
+        float: none
+    }
+}
+
+.uiErrorPage {
+    max-width: 1024px;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center
+}
+
+.uiErrorPage .errorMsg,
+.uiErrorPage .applyAllMsg {
+    font-size: 13px;
+    font-family: Arial;
+    color: #000;
+    padding: 65px 0 0px 0
+}
+
+.uiErrorPage .errorMsg a,
+.uiErrorPage .applyAllMsg a {
+    color: #0000ff
+}
+
+.uiErrorPage .applyAllMsg {
+    padding: 20px 0 0 0;
+    min-height: 250px
+}
+
+.uiErrorPage .buttonContainer {
+    text-align: center;
+    margin: 0 auto
+}
+
+.uiErrorPage button {
+    height: 50px;
+    color: #FFFFFF;
+    background-color: #278835;
+    border: 0;
+    text-align: center;
+    border-radius: 5px;
+    font-family: "Arial Bold";
+    width: 48.4%;
+    font-size: 15px
+}
+
+.uiErrorPage button.errorPageViewAllBtn {
+    margin: 0 0 55px 0
+}
+
+@media (max-width: 660px) {
+    .uiErrorPage {
+        padding: 0 15px
+    }
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .uiErrorPage {
+        padding: 0 15px
+    }
+}
+
+body,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+li,
+div,
+ul {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: BentonSans
+}
+
+#iNavFooter {
+    display: none
+}
+
+.res_Small #responsiveWrapper_main.overflowVisible {
+    overflow: visible
+}
+
+.iNavShadow {
+    display: none
+}
+
+body {
+    min-width: 320px
+}
+
+.clear {
+    clear: both
+}
+
+ul li {
+    list-style-type: none
+}
+
+.containerWrapper {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #EAEBEC
+}
+
+.containerWrapper.snrLogin {
+    background-color: #FFFFFF
+}
+
+@media (max-width: 660px) {
+    .containerWrapper {
+        background-color: #FFFFFF
+    }
+}
+
+.blueBanner {
+    background-color: #06307C
+}
+
+.maskbg {
+    background-color: #000;
+    opacity: 0.6;
+    width: 100%;
+    height: 2500px;
+    z-index: 9998;
+    position: absolute;
+    top: 0px
+}
+
+.overlay {
+    position: relative
+}
+
+.secHeading {
+    width: 100%;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: BentonSans-Lt;
+    margin-bottom: 30px;
+    color: #002663
+}
+
+@media (max-width: 660px) {
+    .secHeading {
+        font-size: 21px;
+        margin-bottom: 20px
+    }
+}
+
+.secHeading.hideSection {
+    display: none
+}
+
+.notice {
+    display: none
+}
+
+.colSpan1,
+.colSpan31,
+.colSpan34 {
+    width: 43%;
+    float: left;
+    height: 70px;
+    margin-right: 2%
+}
+
+.colSpan2 {
+    width: 54%;
+    float: left
+}
+
+.colSpan3,
+.colSpan32 {
+    width: 100%;
+    float: left
+}
+
+.colSpan31 {
+    width: 31%
+}
+
+.colSpan32 .form-field .form-label {
+    width: 50%;
+    float: left
+}
+
+@media (max-width: 660px) {
+    .colSpan32 .form-field .form-label {
+        width: 98%
+    }
+}
+
+.colSpan32 .form-input {
+    width: 50%;
+    float: left
+}
+
+@media (max-width: 660px) {
+    .colSpan32 .form-input {
+        width: 98%
+    }
+}
+
+.colSpan32 .form-input .radioField {
+    margin-top: -5px
+}
+
+.colSpan32 .form-input .radioField.horizontal50 {
+    width: 50%;
+    float: left
+}
+
+@media (max-width: 660px) {
+    .colSpan32 .form-input .radioField.horizontal50 {
+        margin-top: 10px
+    }
+}
+
+.colSpan34 {
+    width: 34%;
+    margin-right: 0
+}
+
+.leftWidth46,
+.leftWidth56 {
+    width: 46%;
+    float: left;
+    margin-right: 2%
+}
+
+@media (max-width: 660px) {
+    .leftWidth46,
+    .leftWidth56 {
+        width: 100%;
+        margin-right: 0
+    }
+}
+
+.leftWidth56 {
+    width: 56%
+}
+
+@media (max-width: 660px) {
+    .leftWidth56 {
+        width: 100%
+    }
+}
+
+.snrLogin .leftWrapper {
+    width: 70%;
+    margin-top: 30px;
+    min-height: 0
+}
+
+.leftWrapper {
+    width: 66%;
+    float: left;
+    background-color: #FFF;
+    min-height: 550px
+}
+
+@media (max-width: 660px) {
+    .leftWrapper {
+        width: 96%;
+        float: none;
+        margin: 0 auto
+    }
+}
+
+.leftWrapper .hd {
+    width: 98%
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .leftWrapper .hd {
+        margin-left: 10px
+    }
+}
+
+.leftWrapper .helpIcon {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -216px -103px transparent;
+    margin-bottom: -7px;
+    cursor: pointer
+}
+
+.leftWrapper .sectionTitle {
+    display: none
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .sectionTitle {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px
+    }
+    .leftWrapper .sectionTitle .sectionTitleText {
+        font-size: 13px;
+        font-family: BentonSans-Md;
+        color: #278835;
+        text-transform: uppercase
+    }
+}
+
+.leftWrapper .cardApproved,
+.leftWrapper .reviewCreditLimitHeading {
+    border-bottom: 1px solid #278835;
+    background-color: #FAFAFA;
+    color: #010000;
+    font-size: 16px;
+    font-family: BentonSans;
+    font-weight: lighter;
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 25px
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .cardApproved,
+    .leftWrapper .reviewCreditLimitHeading {
+        width: 96%
+    }
+}
+
+.leftWrapper .cardApproved .approvalIcon,
+.leftWrapper .reviewCreditLimitHeading .approvalIcon,
+.leftWrapper .reviewCreditLimitHeading .sectionHeaderIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -394px -299px transparent;
+    width: 28px;
+    height: 31px;
+    float: left;
+    margin-right: 1.26%
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .cardApproved .approvalIcon,
+    .leftWrapper .reviewCreditLimitHeading .approvalIcon,
+    .leftWrapper .reviewCreditLimitHeading .sectionHeaderIcon {
+        margin-top: -6px
+    }
+}
+
+.leftWrapper .cardApproved .approvalContent,
+.leftWrapper .reviewCreditLimitHeading .approvalContent {
+    display: inline-block;
+    width: 88%
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .cardApproved .approvalContent,
+    .leftWrapper .reviewCreditLimitHeading .approvalContent {
+        width: 83%
+    }
+}
+
+.leftWrapper .cardApproved .approvalContent .approvalName,
+.leftWrapper .reviewCreditLimitHeading .approvalContent .approvalName,
+.leftWrapper .cardApproved .approvalContent .reviewCreditLimitHeading .sectionHeader,
+.leftWrapper .reviewCreditLimitHeading .approvalContent .sectionHeader {
+    font-size: 21px;
+    color: #278835;
+    font-family: BentonSans-Lt
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .cardApproved .approvalContent .approvalName,
+    .leftWrapper .reviewCreditLimitHeading .approvalContent .approvalName,
+    .leftWrapper .cardApproved .approvalContent .reviewCreditLimitHeading .sectionHeader,
+    .leftWrapper .reviewCreditLimitHeading .approvalContent .sectionHeader {
+        font-size: 16px
+    }
+}
+
+.leftWrapper .cardApproved .approvalContent .cardApprovedMsg,
+.leftWrapper .reviewCreditLimitHeading .approvalContent .cardApprovedMsg {
+    font-size: 16px;
+    color: #000000
+}
+
+.leftWrapper .cardApproved.Pass,
+.leftWrapper .Pass.reviewCreditLimitHeading {
+    border-bottom: 1px solid #002263;
+    background-color: #E6F7FC
+}
+
+.leftWrapper .cardApproved.Pass .approvalName,
+.leftWrapper .Pass.reviewCreditLimitHeading .approvalName,
+.leftWrapper .cardApproved.Pass .reviewCreditLimitHeading .sectionHeader,
+.leftWrapper .reviewCreditLimitHeading .cardApproved.Pass .sectionHeader,
+.leftWrapper .Pass.reviewCreditLimitHeading .sectionHeader {
+    color: #002263
+}
+
+.leftWrapper .cardApproved.Pass .cardApprovedMsg,
+.leftWrapper .Pass.reviewCreditLimitHeading .cardApprovedMsg {
+    color: #010000
+}
+
+.leftWrapper .cardApproved.Pass .approvalIcon,
+.leftWrapper .Pass.reviewCreditLimitHeading .approvalIcon,
+.leftWrapper .cardApproved.Pass .reviewCreditLimitHeading .sectionHeaderIcon,
+.leftWrapper .reviewCreditLimitHeading .cardApproved.Pass .sectionHeaderIcon,
+.leftWrapper .Pass.reviewCreditLimitHeading .sectionHeaderIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -394px -270px transparent
+}
+
+.leftWrapper .reviewCreditLimitHeading .sectionHeader {
+    display: inline-block;
+    margin-top: 7px;
+    color: #278835;
+    font-family: BentonSans-Md
+}
+
+.leftWrapper .formContainer {
+    width: 95%
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .leftWrapper .formContainer {
+        margin-left: 10px
+    }
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .formContainer {
+        width: 100%
+    }
+}
+
+.asterisk {
+    display: none;
+    color: #E1242B;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: BentonSans
+}
+
+.mandatoryAsterisk {
+    margin-bottom: 18px;
+    font-size: 13px;
+    color: #4F4D53
+}
+
+.mandatoryAsterisk .asterisk {
+    display: inline-block
+}
+
+.mandatoryAsterisk.snrLoginText .headerTxt {
+    margin-bottom: 20px
+}
+
+.mandatoryAsterisk.snrLoginText .productName {
+    font-weight: bold
+}
+
+.form-field {
+    margin-bottom: 15px;
+    position: relative
+}
+
+.form-field .form-label {
+    color: #70777B;
+    font-size: 13px;
+    font-family: BentonSans-Md
+}
+
+@media (max-width: 660px) {
+    .form-field .form-label {
+        width: 100%
+    }
+}
+
+.form-field .form-label .subLabel {
+    font-weight: normal;
+    display: inline-block;
+    margin-top: 20px
+}
+
+@media (max-width: 660px) {
+    .form-field .form-label.checkbox-label {
+        width: 82%
+    }
+}
+
+.form-field.required .form-label .asterisk {
+    display: inline-block;
+    float: left
+}
+
+.form-input {
+    position: relative
+}
+
+.form-input input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: BentonSans;
+    color: #4D4F53;
+    box-sizing: border-box
+}
+
+.form-input input.radio-input {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    float: none;
+    opacity: 0
+}
+
+.form-input input.redBorder {
+    border: solid #E1242B 1px;
+    border-radius: 5px
+}
+
+.dependent .form-label {
+    display: inline-block;
+    width: 66.5%;
+    margin-right: 1%
+}
+
+.dependent .form-input {
+    display: inline-block;
+    width: 30%
+}
+
+@media (max-width: 660px) {
+    #rightWrapper {
+        display: none
+    }
+    .colSpan1,
+    .colSpan31,
+    .colSpan34,
+    .colSpan2,
+    .colSpan3,
+    .colSpan32 {
+        width: 100%;
+        margin-right: 0
+    }
+}
+
+.form-field.required.noAsterisk .form-label .asterisk {
+    display: none
+}
+
+div.spinner {
+    position: relative;
+    width: 35px;
+    height: 35px;
+    margin: 15px auto
+}
+
+div.spinner div {
+    width: 8%;
+    height: 30%;
+    background: #000;
+    position: absolute;
+    left: 44.5%;
+    top: 37%;
+    opacity: 0;
+    animation: fade 1s linear infinite;
+    border-radius: 2px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2)
+}
+
+div.spinner div.bar1 {
+    transform: rotate(0deg) translate(0, -142%);
+    animation-delay: 0s
+}
+
+div.spinner div.bar2 {
+    transform: rotate(30deg) translate(0, -142%);
+    animation-delay: -0.9167s
+}
+
+div.spinner div.bar3 {
+    transform: rotate(60deg) translate(0, -142%);
+    animation-delay: -0.833s
+}
+
+div.spinner div.bar4 {
+    transform: rotate(90deg) translate(0, -142%);
+    animation-delay: -0.75s
+}
+
+div.spinner div.bar5 {
+    transform: rotate(120deg) translate(0, -142%);
+    animation-delay: -0.667s
+}
+
+div.spinner div.bar6 {
+    transform: rotate(150deg) translate(0, -142%);
+    animation-delay: -0.5833s
+}
+
+div.spinner div.bar7 {
+    transform: rotate(180deg) translate(0, -142%);
+    animation-delay: -0.5s
+}
+
+div.spinner div.bar8 {
+    transform: rotate(210deg) translate(0, -142%);
+    animation-delay: -0.41667s
+}
+
+div.spinner div.bar9 {
+    transform: rotate(240deg) translate(0, -142%);
+    animation-delay: -0.333s
+}
+
+div.spinner div.bar10 {
+    transform: rotate(270deg) translate(0, -142%);
+    animation-delay: -0.25s
+}
+
+div.spinner div.bar11 {
+    transform: rotate(300deg) translate(0, -142%);
+    animation-delay: -0.1667s
+}
+
+div.spinner div.bar12 {
+    transform: rotate(330deg) translate(0, -142%);
+    animation-delay: -0.0833s
+}
+
+@keyframes fade {
+    from {
+        opacity: 1
+    }
+    to {
+        opacity: 0.25
+    }
+}
+
+.timer-overlay {
+    position: absolute;
+    z-index: 9999;
+    background-color: #FFFFFF;
+    width: 320px;
+    padding: 15px 15px 30px 15px;
+    text-align: center;
+    border-radius: 5px;
+    left: 27%;
+    top: 0
+}
+
+@media (max-width: 660px) {
+    .timer-overlay {
+        padding-bottom: 25px;
+        width: 285px;
+        left: 1.5%
+    }
+}
+
+.timer-overlay .overlayClose {
+    width: 24px;
+    height: 24px;
+    float: right;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") -7px -98px no-repeat transparent;
+    cursor: pointer
+}
+
+.timer-overlay .timerOverlayTxt,
+.timer-overlay .timerOverlayWarningTime {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    font-family: BentonSans;
+    color: #4D4F52
+}
+
+.timer-overlay .timerOverlayWarningTime {
+    margin-top: 0px
+}
+
+.timer-overlay .sessionTimeOutBtns {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%
+}
+
+.timer-overlay .sessionCtnBtn,
+.timer-overlay .sessionExpBtn {
+    width: 40%;
+    display: inline-block
+}
+
+.timer-overlay .sessionCtnBtn button,
+.timer-overlay .sessionExpBtn button {
+    width: 100%;
+    border-radius: 5px;
+    border: 0;
+    font-family: BentonSans-Md;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+    height: 40px
+}
+
+.timer-overlay .sessionCtnBtn button {
+    color: #efefef;
+    background-color: #278835
+}
+
+.timer-overlay .sessionExpBtn {
+    margin: 0 10px 0 0
+}
+
+.timer-overlay .sessionExpBtn button {
+    color: #FFFFFF;
+    background-color: #C0BEBE
+}
+
+.thankyouHeading {
+    font-size: 18px;
+    font-family: BentonSans;
+    color: #002263;
+    margin-bottom: 40px
+}
+
+.productsize strong {
+    font-family: BentonSans;
+    font-size: 18px;
+    color: #4d4f53
+}
+
+@media (max-width: 660px) {
+    .productsize strong {
+        font-size: 15px
+    }
+}
+
+.productsize span {
+    font-family: BentonSans;
+    font-size: 13px;
+    color: #4d4f53
+}
+
+.leftWrapper.thankyou {
+    float: none;
+    width: 70%;
+    margin: 2em auto;
+    min-width: 320px;
+    overflow: auto;
+    max-width: 750px
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .leftWrapper.thankyou {
+        width: 90%
+    }
+}
+
+.leftWrapper.thankyou .thankyouContent {
+    margin: 0 auto
+}
+
+@media (max-width: 660px) {
+    .leftWrapper.thankyou .thankyouContent {
+        width: 93.75%
+    }
+}
+
+.leftWrapper.thankyou .thankyouContent .thankyouCardart {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px
+}
+
+.leftWrapper.thankyou .thankyouContent.default .thankyouCardart {
+    text-align: left;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+
+@media (max-width: 660px) {
+    .leftWrapper.thankyou .thankyouContent.default .thankyouCardart {
+        margin-top: 20px;
+        margin-bottom: 20px
+    }
+}
+
+.leftWrapper.thankyou .thankyouContent.default .thankyouCardart img:first-of-type:last-of-type {
+    display: block;
+    margin: auto
+}
+
+.leftWrapper.thankyou .thankyouContent.default .thankyouCardart .card {
+    margin: 0 42px;
+    overflow: auto
+}
+
+.leftWrapper.thankyou .thankyouContent.default .thankyouCardart .card p {
+    float: left;
+    margin-top: 40px;
+    width: 50%
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .leftWrapper.thankyou .thankyouContent.default .thankyouCardart .card p {
+        width: 67%;
+        margin-top: 20px
+    }
+}
+
+@media (max-width: 660px) {
+    .leftWrapper.thankyou .thankyouContent.default .thankyouCardart .card p {
+        width: 100%;
+        margin-top: 20px
+    }
+}
+
+.leftWrapper.thankyou .thankyouContent.default .thankyouCardart .card img {
+    float: right
+}
+
+.leftWrapper.thankyou .thankyouContent.default .thankyouCardart .card:first-of-type img {
+    padding-right: 42px
+}
+
+.leftWrapper.thankyou .thankyouContent.default .thankyouCardart .card:last-of-type:nth-of-type(n+2) {
+    margin-top: -70px
+}
+
+.leftWrapper.thankyou .thankyouContent.default .thankyouCardart .card:last-of-type img {
+    padding-right: 0;
+    width: 240px;
+    float: right
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .leftWrapper.thankyou .thankyouContent.default .thankyouCardart .card:last-of-type img {
+        width: 155px
+    }
+}
+
+@media (max-width: 660px) {
+    .leftWrapper.thankyou .thankyouContent.default .thankyouCardart .card:last-of-type img {
+        width: 120px;
+        float: none
+    }
+}
+
+.leftWrapper.thankyou .thankyouContent .thankyouHeading {
+    margin-bottom: 30px
+}
+
+.leftWrapper.thankyou .thankyouContent .thankyouHeading h1 {
+    font-size: 18px;
+    font-family: BentonSans-Md;
+    line-height: 24px
+}
+
+.leftWrapper.thankyou .thankyouContent .thankyouCardart+.thankyouHeading>div {
+    font-size: 24px;
+    font-family: BentonSans-Md;
+    line-height: 24px;
+    color: #002263;
+    text-transform: uppercase
+}
+
+@media (max-width: 660px) {
+    .leftWrapper.thankyou .thankyouContent .thankyouCardart+.thankyouHeading>div {
+        font-size: 18px
+    }
+}
+
+.leftWrapper.thankyou .thankyouContent .thankyouText {
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-family: BentonSans;
+    color: #4F4D53;
+    padding: 0 5px
+}
+
+.leftWrapper.thankyou .thankyouContent .thankyouText .thankyouPhNum {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -354px -258px transparent
+}
+
+.leftWrapper.thankyou .thankyouContent .thankyouText .highlight {
+    padding: 1em;
+    border: 1px solid #ccc;
+    background: #efefef;
+    text-align: center
+}
+
+.leftWrapper.thankyou .thankyouContent .thankyouText .highlight button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase
+}
+
+.leftWrapper.thankyou .thankyouContent .success .thankyouTickIcon {
+    display: inline-block;
+    float: left;
+    margin-right: 10px;
+    width: 42px;
+    height: 42px;
+    background-color: transparent;
+    background-image: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png");
+    background-position: 81px 171px
+}
+
+.leftWrapper.thankyou .thankyouContent .success .headingContent {
+    display: inline-block;
+    width: 80%;
+    font-size: 18px;
+    color: #002263;
+    font-family: BentonSans
+}
+
+@media (max-width: 660px) {
+    .leftWrapper.thankyou .thankyouContent .thankyoupage-navigation {
+        text-align: center
+    }
+}
+
+.leftWrapper.thankyou .thankyouContent .thankyoupage-navigation button:nth-of-type(-n+2) {
+    margin: 0;
+    float: left
+}
+
+.leftWrapper.thankyou .thankyouContent .thankyoupage-navigation a.upload,
+.leftWrapper.thankyou .thankyouContent .thankyoupage-navigation button {
+    background-color: #278835;
+    border: 0;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: block;
+    font-family: BentonSans-Md;
+    font-size: 15px;
+    height: 50px;
+    line-height: 50px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 38.4%
+}
+
+@media (max-width: 660px) {
+    .leftWrapper.thankyou .thankyouContent .thankyoupage-navigation a.upload,
+    .leftWrapper.thankyou .thankyouContent .thankyoupage-navigation button {
+        width: 100%
+    }
+}
+
+.leftWrapper.thankyou .thankyouContent .thankyoupage-navigation a.upload.thankupage-home-button,
+.leftWrapper.thankyou .thankyouContent .thankyoupage-navigation button.thankupage-home-button {
+    float: right
+}
+
+@media (max-width: 660px) {
+    .leftWrapper.thankyou .thankyouContent .thankyoupage-navigation a.upload.thankupage-home-button,
+    .leftWrapper.thankyou .thankyouContent .thankyoupage-navigation button.thankupage-home-button {
+        float: none;
+        margin-top: 20px
+    }
+}
+
+@media (max-width: 660px) {
+    .leftWrapper.thankyou .thankyouContent .thankyoupage-navigation a.upload.thankupage-print-button,
+    .leftWrapper.thankyou .thankyouContent .thankyoupage-navigation button.thankupage-print-button {
+        margin-bottom: 0px;
+        float: none
+    }
+}
+
+@media (max-width: 660px) {
+    #AU_F32 {
+        width: 91%
+    }
+}
+
+.form-input .radioField.horizontal100 {
+    width: 50%;
+    float: left
+}
+
+@media (max-width: 660px) {
+    .form-input .radioField.horizontal100 {
+        width: 50%
+    }
+}
+
+.form-input .radioField.horizontal100 .radioLabel .radioLabelTxt {
+    width: 65%
+}
+
+.form-input .currency input {
+    padding-left: 57px;
+    width: 87.4%
+}
+
+.colSpan3 .cardnumber-field input.card1 {
+    width: 28%;
+    margin-right: 2%;
+    float: left
+}
+
+.colSpan3 .cardnumber-field input.card2 {
+    width: 30%;
+    margin-right: 2%;
+    float: left
+}
+
+@media (max-width: 700px) {
+    .colSpan3 .cardnumber-field input.card2 {
+        width: 29%
+    }
+}
+
+.colSpan3 .cardnumber-field input.card3 {
+    width: 29%;
+    float: left
+}
+
+.colSpan3 .cardnumber-field .redBorder input {
+    border: 1px solid #E1242B
+}
+
+body,
+p,
+ol,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+h7,
+li,
+div,
+ul {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: BentonSans
+}
+
+#iNavFooter {
+    display: none
+}
+
+.res_Small #responsiveWrapper_main.overflowVisible {
+    overflow: visible
+}
+
+.iNavShadow {
+    display: none
+}
+
+body {
+    min-width: 320px
+}
+
+.clear {
+    clear: both
+}
+
+ul li {
+    list-style-type: none
+}
+
+.containerWrapper {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #EAEBEC
+}
+
+.containerWrapper.snrLogin {
+    background-color: #FFFFFF
+}
+
+@media (max-width: 660px) {
+    .containerWrapper {
+        background-color: #FFFFFF
+    }
+}
+
+.blueBanner {
+    background-color: #06307C
+}
+
+.maskbg {
+    background-color: #000;
+    opacity: 0.6;
+    width: 100%;
+    height: 2500px;
+    z-index: 9998;
+    position: absolute;
+    top: 0px
+}
+
+.overlay {
+    position: relative
+}
+
+.secHeading {
+    width: 100%;
+    font-size: 28px;
+    font-weight: normal;
+    font-family: BentonSans-Lt;
+    margin-bottom: 30px;
+    color: #002663
+}
+
+@media (max-width: 660px) {
+    .secHeading {
+        font-size: 21px;
+        margin-bottom: 20px
+    }
+}
+
+.secHeading.hideSection {
+    display: none
+}
+
+.notice {
+    display: none
+}
+
+.colSpan1,
+.colSpan31,
+.colSpan34 {
+    width: 43%;
+    float: left;
+    height: 70px;
+    margin-right: 2%
+}
+
+.colSpan2 {
+    width: 54%;
+    float: left
+}
+
+.colSpan3,
+.colSpan32 {
+    width: 100%;
+    float: left
+}
+
+.colSpan31 {
+    width: 31%
+}
+
+.colSpan32 .form-field .form-label,
+.colSpan32 .form-field .checkbox-label {
+    width: 50%;
+    float: left
+}
+
+@media (max-width: 660px) {
+    .colSpan32 .form-field .form-label,
+    .colSpan32 .form-field .checkbox-label {
+        width: 98%
+    }
+}
+
+.colSpan32 .form-input {
+    width: 50%;
+    float: left
+}
+
+@media (max-width: 660px) {
+    .colSpan32 .form-input {
+        width: 98%
+    }
+}
+
+.colSpan32 .form-input .radioField {
+    margin-top: -5px
+}
+
+.colSpan32 .form-input .radioField.horizontal50 {
+    width: 50%;
+    float: left
+}
+
+@media (max-width: 660px) {
+    .colSpan32 .form-input .radioField.horizontal50 {
+        margin-top: 10px
+    }
+}
+
+.colSpan34 {
+    width: 34%;
+    margin-right: 0
+}
+
+.leftWidth46,
+.leftWidth56 {
+    width: 46%;
+    float: left;
+    margin-right: 2%
+}
+
+@media (max-width: 660px) {
+    .leftWidth46,
+    .leftWidth56 {
+        width: 100%;
+        margin-right: 0
+    }
+}
+
+.leftWidth56 {
+    width: 56%
+}
+
+@media (max-width: 660px) {
+    .leftWidth56 {
+        width: 100%
+    }
+}
+
+.snrLogin .leftWrapper {
+    width: 70%;
+    margin-top: 30px;
+    min-height: 0
+}
+
+.leftWrapper {
+    width: 66%;
+    float: left;
+    background-color: #FFF;
+    min-height: 550px
+}
+
+@media (max-width: 660px) {
+    .leftWrapper {
+        width: 96%;
+        float: none;
+        margin: 0 auto
+    }
+}
+
+.leftWrapper .hd {
+    width: 98%
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .leftWrapper .hd {
+        margin-left: 10px
+    }
+}
+
+.leftWrapper .helpIcon {
+    display: inline-block;
+    width: 27px;
+    height: 27px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -216px -103px transparent;
+    margin-bottom: -7px;
+    cursor: pointer
+}
+
+.leftWrapper .sectionTitle {
+    display: none
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .sectionTitle {
+        display: block;
+        width: 100%;
+        margin-bottom: 20px
+    }
+    .leftWrapper .sectionTitle .sectionTitleText {
+        font-size: 13px;
+        font-family: BentonSans-Md;
+        color: #278835;
+        text-transform: uppercase
+    }
+}
+
+.leftWrapper .cardApproved,
+.leftWrapper .reviewCreditLimitHeading {
+    border-bottom: 1px solid #278835;
+    background-color: #FAFAFA;
+    color: #010000;
+    font-size: 16px;
+    font-family: BentonSans;
+    font-weight: lighter;
+    width: 90%;
+    padding: 2%;
+    margin-bottom: 25px
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .cardApproved,
+    .leftWrapper .reviewCreditLimitHeading {
+        width: 96%
+    }
+}
+
+.leftWrapper .cardApproved .approvalIcon,
+.leftWrapper .reviewCreditLimitHeading .approvalIcon,
+.leftWrapper .reviewCreditLimitHeading .sectionHeaderIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -394px -299px transparent;
+    width: 28px;
+    height: 31px;
+    float: left;
+    margin-right: 1.26%
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .cardApproved .approvalIcon,
+    .leftWrapper .reviewCreditLimitHeading .approvalIcon,
+    .leftWrapper .reviewCreditLimitHeading .sectionHeaderIcon {
+        margin-top: -6px
+    }
+}
+
+.leftWrapper .cardApproved .approvalContent,
+.leftWrapper .reviewCreditLimitHeading .approvalContent {
+    display: inline-block;
+    width: 88%
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .cardApproved .approvalContent,
+    .leftWrapper .reviewCreditLimitHeading .approvalContent {
+        width: 83%
+    }
+}
+
+.leftWrapper .cardApproved .approvalContent .approvalName,
+.leftWrapper .reviewCreditLimitHeading .approvalContent .approvalName,
+.leftWrapper .cardApproved .approvalContent .reviewCreditLimitHeading .sectionHeader,
+.leftWrapper .reviewCreditLimitHeading .approvalContent .sectionHeader {
+    font-size: 21px;
+    color: #278835;
+    font-family: BentonSans-Lt
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .cardApproved .approvalContent .approvalName,
+    .leftWrapper .reviewCreditLimitHeading .approvalContent .approvalName,
+    .leftWrapper .cardApproved .approvalContent .reviewCreditLimitHeading .sectionHeader,
+    .leftWrapper .reviewCreditLimitHeading .approvalContent .sectionHeader {
+        font-size: 16px
+    }
+}
+
+.leftWrapper .cardApproved .approvalContent .cardApprovedMsg,
+.leftWrapper .reviewCreditLimitHeading .approvalContent .cardApprovedMsg {
+    font-size: 16px;
+    color: #000000
+}
+
+.leftWrapper .cardApproved.Pass,
+.leftWrapper .Pass.reviewCreditLimitHeading {
+    border-bottom: 1px solid #002263;
+    background-color: #E6F7FC
+}
+
+.leftWrapper .cardApproved.Pass .approvalName,
+.leftWrapper .Pass.reviewCreditLimitHeading .approvalName,
+.leftWrapper .cardApproved.Pass .reviewCreditLimitHeading .sectionHeader,
+.leftWrapper .reviewCreditLimitHeading .cardApproved.Pass .sectionHeader,
+.leftWrapper .Pass.reviewCreditLimitHeading .sectionHeader {
+    color: #002263
+}
+
+.leftWrapper .cardApproved.Pass .cardApprovedMsg,
+.leftWrapper .Pass.reviewCreditLimitHeading .cardApprovedMsg {
+    color: #010000
+}
+
+.leftWrapper .cardApproved.Pass .approvalIcon,
+.leftWrapper .Pass.reviewCreditLimitHeading .approvalIcon,
+.leftWrapper .cardApproved.Pass .reviewCreditLimitHeading .sectionHeaderIcon,
+.leftWrapper .reviewCreditLimitHeading .cardApproved.Pass .sectionHeaderIcon,
+.leftWrapper .Pass.reviewCreditLimitHeading .sectionHeaderIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -394px -270px transparent
+}
+
+.leftWrapper .reviewCreditLimitHeading .sectionHeader {
+    display: inline-block;
+    margin-top: 7px;
+    color: #278835;
+    font-family: BentonSans-Md
+}
+
+.leftWrapper .formContainer {
+    width: 95%
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .leftWrapper .formContainer {
+        margin-left: 10px
+    }
+}
+
+@media (max-width: 660px) {
+    .leftWrapper .formContainer {
+        width: 100%
+    }
+}
+
+.asterisk {
+    display: none;
+    color: #E1242B;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: BentonSans
+}
+
+.mandatoryAsterisk {
+    margin-bottom: 18px;
+    font-size: 13px;
+    color: #4F4D53
+}
+
+.mandatoryAsterisk .asterisk {
+    display: inline-block
+}
+
+.mandatoryAsterisk.snrLoginText .headerTxt {
+    margin-bottom: 20px
+}
+
+.mandatoryAsterisk.snrLoginText .productName {
+    font-weight: bold
+}
+
+.form-field {
+    margin-bottom: 15px;
+    position: relative
+}
+
+.form-field .form-label,
+.form-field .checkbox-label {
+    color: #70777B;
+    font-size: 13px;
+    font-family: BentonSans-Md
+}
+
+@media (max-width: 660px) {
+    .form-field .form-label,
+    .form-field .checkbox-label {
+        width: 100%
+    }
+}
+
+.form-field .form-label .subLabel,
+.form-field .checkbox-label .subLabel {
+    font-weight: normal;
+    display: inline-block;
+    margin-top: 20px
+}
+
+@media (max-width: 660px) {
+    .form-field .form-label.checkbox-label,
+    .form-field .checkbox-label {
+        width: 82%
+    }
+}
+
+.form-field.required .form-label .asterisk,
+.form-field.required .checkbox-label .asterisk {
+    display: inline-block;
+    float: left
+}
+
+.form-input {
+    position: relative
+}
+
+.form-input input {
+    height: 40px;
+    width: 100%;
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: BentonSans;
+    color: #4D4F53;
+    box-sizing: border-box
+}
+
+.form-input input.radio-input {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    float: none;
+    opacity: 0
+}
+
+.form-input input.redBorder {
+    border: solid #E1242B 1px;
+    border-radius: 5px
+}
+
+.dependent .form-label,
+.dependent .checkbox-label {
+    display: inline-block;
+    width: 66.5%;
+    margin-right: 1%
+}
+
+.dependent .form-input {
+    display: inline-block;
+    width: 30%
+}
+
+@media (max-width: 660px) {
+    #rightWrapper {
+        display: none
+    }
+    .colSpan1,
+    .colSpan31,
+    .colSpan34,
+    .colSpan2,
+    .colSpan3,
+    .colSpan32 {
+        width: 100%;
+        margin-right: 0
+    }
+}
+
+.form-field.required.noAsterisk .form-label .asterisk,
+.form-field.required.noAsterisk .checkbox-label .asterisk {
+    display: none
+}
+
+.unchkCheckboxLabel {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -114px -87px transparent;
+    float: right
+}
+
+.checkedCheckboxLabel {
+    width: 32px;
+    height: 32px;
+    display: inline-block;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -114px -122px transparent;
+    float: right
+}
+
+.error .unchkCheckboxLabel {
+    border: 1px solid #E1242B;
+    border-radius: 5px
+}
+
+.error .checkedCheckboxLabel {
+    border: 0px
+}
+
+.bold-underline {
+    text-decoration: underline;
+    font-weight: bold
+}
+
+.checkbox-label {
+    float: left;
+    width: 85%
+}
+
+.checkboxfield {
+    float: right
+}
+
+.fieldFocused {
+    outline: 0;
+    outline: thin dotted \9;
+    -webkit-box-shadow: 0 0 8px #acacac;
+    -moz-box-shadow: 0 0 8px #acacac;
+    box-shadow: 0 0 8px #acacac;
+    border-radius: 5px
+}
+
+.form-field .sectionField {
+    float: right
+}
+
+.form-field .section-subheader-text {
+    font-size: 13px;
+    font-family: BentonSans;
+    color: #70777B;
+    float: left;
+    margin-bottom: 10px
+}
+
+.form-field .section-field-label {
+    float: left;
+    width: 83%
+}
+
+.form-field .section-field-label.maxWidth {
+    width: 100%
+}
+
+.form-field .section-field-label.learnMore100 {
+    width: 100%
+}
+
+.form-field .section-field-label-points {
+    display: inline-block;
+    margin-top: 10px
+}
+
+.form-field .section-field-label-points ul {
+    padding-left: 3.5%
+}
+
+.form-field .section-field-label-points ul li {
+    list-style-type: disc;
+    font-size: 13px;
+    color: #70777B;
+    line-height: 15px;
+    margin-bottom: 20px
+}
+
+.form-field input[type="checkbox"] {
+    opacity: 0
+}
+
+.form-field label {
+    float: right
+}
+
+.form-field .radio label {
+    float: left
+}
+
+.form-field.declaration_border {
+    border-top: 1px solid #CCC;
+    margin-top: 20px;
+    padding-top: 20px
+}
+
+@media (max-width: 660px) {
+    .form-field.declaration_border {
+        margin-top: 10px;
+        padding-top: 10px
+    }
+}
+
+.form-field.declaration_border a {
+    color: #0000FF
+}
+
+.form-field.declaration_border.stage1 {
+    margin-top: 0px
+}
+
+.form-field.declaration_border .section-field-label-points ul {
+    padding-left: 0
+}
+
+.form-field.declaration_border .section-field-label-points ul li {
+    list-style-type: none;
+    margin-bottom: 10px
+}
+
+.form-field.declaration_border .unchkCheckboxLabel {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -114px -12px transparent
+}
+
+.form-field.declaration_border .checkedCheckboxLabel {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -114px -48px transparent
+}
+
+.form-field.declaration {
+    border-top: 1px solid #CCC;
+    margin-top: 20px;
+    padding-top: 20px
+}
+
+@media (max-width: 660px) {
+    .form-field.declaration {
+        margin-top: 10px;
+        padding-top: 10px
+    }
+}
+
+.form-field.declaration a {
+    color: #0000FF
+}
+
+.form-field.declaration.stage1 {
+    margin-top: 0px
+}
+
+.checkboxSubSection.form-field.amexBillProtectIcon .section-body {
+    width: 100%;
+    display: inline-block
+}
+
+.checkboxSubSection.form-field.amexBillProtectIcon .section-body .section-field-label {
+    width: 100%
+}
+
+.checkboxSubSection.form-field.amexBillProtectIcon .learnMoreContent .section-header {
+    padding-top: 30px;
+    width: 100%;
+    display: inline-block
+}
+
+.checkboxSubSection.form-field.amexBillProtectIcon .learnMoreContent .section-body {
+    width: 100%;
+    display: inline-block
+}
+
+.checkboxSubSection.form-field {
+    margin-bottom: 0px;
+    margin-top: 15px;
+    position: relative
+}
+
+@media (max-width: 660px) {
+    .checkboxSubSection.form-field {
+        margin-top: 30px
+    }
+}
+
+.checkboxSubSection.form-field.declaration {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-top: 10px
+}
+
+.checkboxSubSection.form-field.declaration .section-header {
+    border-bottom: 0;
+    padding-bottom: 0
+}
+
+.checkboxSubSection.form-field.declaration .unchkCheckboxLabel {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -114px -12px transparent
+}
+
+.checkboxSubSection.form-field.declaration .unchkCheckboxLabel.checkedCheckboxLabel {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -114px -48px transparent
+}
+
+.checkboxSubSection.form-field .learnMoreCheckBox {
+    position: absolute;
+    top: 79.2%;
+    left: 92%
+}
+
+.checkboxSubSection.form-field .learnMoreCheckBox .unchkCheckboxLabel {
+    margin-top: 15px;
+    margin-left: -40px
+}
+
+@media (max-width: 660px) {
+    .checkboxSubSection.form-field .learnMoreCheckBox .unchkCheckboxLabel {
+        margin-top: 35px
+    }
+}
+
+.checkboxSubSection.form-field .section-body {
+    float: left;
+    width: 86%
+}
+
+.checkboxSubSection.form-field .section-body.maxWidth {
+    width: 100%
+}
+
+@media (max-width: 660px) {
+    .checkboxSubSection.form-field .section-body {
+        width: 83%
+    }
+}
+
+.checkboxSubSection.form-field .section-body .learnMore100 p {
+    margin-bottom: 0
+}
+
+.checkboxSubSection.form-field .section-body .learnMore100 p.section-subheader-text p {
+    margin-bottom: 10px
+}
+
+.checkboxSubSection.form-field .section-body .learnMore100 p.section-subheader-text p.no-margin-bottom {
+    margin-bottom: 0
+}
+
+.checkboxSubSection.form-field .section-body .learnMore100 p.section-subheader-text p.underline {
+    text-decoration: underline
+}
+
+.checkboxSubSection.form-field .section-body .learnMore100 p.section-subheader-text p .underline {
+    text-decoration: underline
+}
+
+.checkboxSubSection.form-field .checkbox {
+    float: right
+}
+
+.checkboxSubSection.declaration_border .section-header {
+    border-bottom: none;
+    padding: 0
+}
+
+.checkboxSubSection .section-header {
+    border-bottom: 1px #e0e0e0 solid;
+    padding: 0 0 15px 0
+}
+
+.checkboxSubSection .section-header .subheader-icon-text {
+    font-size: 15px;
+    color: #70777B;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.checkboxSubSection .subheader-icon {
+    vertical-align: middle;
+    display: inline-block;
+    width: 0px;
+    height: 0px
+}
+
+.checkboxSubSection .subheader-icon.email {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -116px -259px transparent;
+    height: 20px;
+    margin: 0px 10px 0px 0px;
+    width: 27px
+}
+
+.checkboxSubSection .subheader-icon.onlineEnrollIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -116px -221px transparent;
+    margin: 0px 10px 0px 0px;
+    width: 27px;
+    height: 25px
+}
+
+.checkboxSubSection .subheader-icon.amexBillProtectIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -120px -189px transparent;
+    margin: 0px 10px 0px 0px;
+    height: 25px;
+    width: 23px
+}
+
+.checkboxSubSection .subheader-icon.overlimitIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -304px -305px transparent;
+    margin: 0 10px 0 0;
+    width: 27px;
+    height: 18px
+}
+
+.checkboxSubSection .section-subheader-text {
+    padding-top: 10px
+}
+
+.checkboxSubSection .section-subheader-text .learnMoreLink {
+    color: #0000FF;
+    cursor: pointer;
+    text-decoration: underline
+}
+
+.checkboxSubSection .section-subheader-text a {
+    color: #0000FF
+}
+
+.checkboxSubSection .section-subheader-text .textHighlight {
+    color: #000;
+    font-size: 13px;
+    font-family: BentonSans
+}
+
+.checkboxSubSection .section-subheader-text.onlineStmts {
+    padding-top: 10px;
+    margin-bottom: 0
+}
+
+.checkboxSubSection .unchkCheckboxLabel {
+    margin-top: 8px
+}
+
+.checkboxSubSection .onlineServiceList {
+    padding-left: 5%
+}
+
+@media (max-width: 660px) {
+    .checkboxSubSection .onlineServiceList {
+        padding-left: 5%
+    }
+}
+
+.checkboxSubSection .onlineServiceList li {
+    list-style-type: disc;
+    margin-bottom: 10px
+}
+
+.checkboxSubSection .onlineServiceList li .thankyouPhNum {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -354px -258px transparent
+}
+
+.checkboxSubSection .section-body.maxWidth .section-field-label {
+    width: 100%
+}
+
+.checkboxSubSection .learnMoreContent .section-body .section-field-label {
+    float: left;
+    width: 75%
+}
+
+@media (max-width: 660px) {
+    .checkboxSubSection .learnMoreContent .section-body .section-field-label {
+        width: 100%
+    }
+}
+
+.checkboxSubSection .learnMoreContent .section-body .section-field-label.maxWidth {
+    width: 100%
+}
+
+.checkboxSubSection .learnMoreContent .section-body .section-field-label .section-subheader-text .purchaseList {
+    width: 80%;
+    display: inline-block;
+    padding-left: 4%
+}
+
+.checkboxSubSection .learnMoreContent .section-body .section-field-label .section-subheader-text .purchaseList li {
+    list-style-type: disc;
+    margin-bottom: 10px
+}
+
+.checkboxSubSection .learnMoreContent .section-body .checkbox {
+    float: right;
+    width: 25%
+}
+
+.checkboxSubSection .learnMoreContent .section-body .checkbox label {
+    margin-top: 10px;
+    color: #70777B
+}
+
+@media (max-width: 660px) {
+    .checkboxSubSection .learnMoreContent .section-body .checkbox label {
+        float: left
+    }
+}
+
+@media (max-width: 660px) {
+    .checkboxSubSection .learnMoreContent .section-body .checkbox {
+        width: 100%
+    }
+}
+
+.checkboxSubSection .learnMoreContent .onlineServiceList {
+    padding-left: 4%;
+    margin-bottom: 10px
+}
+
+@media (max-width: 660px) {
+    .checkboxSubSection .learnMoreContent .onlineServiceList {
+        padding-left: 6%
+    }
+}
+
+.checkboxSubSection .learnMoreContent .onlineServiceList li {
+    list-style-type: disc;
+    margin-top: 10px
+}
+
+.checkboxSubSection .learnMoreContent .onlineServiceList li .phoneIcon {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -354px -258px transparent
+}
+
+.checkboxSubSection .learnMoreContent .onlineServiceList li:last-child {
+    margin-bottom: 0px
+}
+
+.icon-area {
+    background-color: #DEE0E2;
+    position: absolute;
+    top: 1px;
+    left: 1px;
+    border-radius: 5px 0 0 5px;
+    color: #70777B;
+    font-size: 16px;
+    font-family: BentonSans;
+    height: 30px;
+    width: 30px;
+    padding-top: 8px;
+    text-align: center
+}
+
+.icon-area.currency-lg {
+    width: 45px
+}
+
+@media (max-width: 660px) and (-webkit-min-device-pixel-ratio: 2) {
+    .icon-area {
+        height: 30px
+    }
+}
+
+.blackTxt {
+    color: #000000
+}
+
+.btTopLabelText {
+    font-size: 13px;
+    font-family: BentonSans;
+    display: inline-block;
+    margin-bottom: 10px;
+    color: #70777B
+}
+
+.form-input .currency input {
+    padding-left: 35px;
+    width: 100%
+}
+
+.form-input .currency input.currency-lg {
+    Padding-left: 48px
+}
+
+.dd-yy-mm select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 16px
+}
+
+.dd-yy-mm .day {
+    width: 28%;
+    height: 45px;
+    margin-right: 2%;
+    float: left;
+    position: relative
+}
+
+@media (max-width: 660px) {
+    .dd-yy-mm .day {
+        width: 29%
+    }
+}
+
+.dd-yy-mm .day .style-select {
+    padding-left: 10px;
+    border: 1px solid #999;
+    width: 100%;
+    color: #4d4f53;
+    font-family: BentonSans
+}
+
+.dd-yy-mm .month {
+    width: 30%;
+    height: 45px;
+    margin-right: 2%;
+    float: left;
+    position: relative
+}
+
+.dd-yy-mm .month .style-select {
+    padding-left: 10px;
+    border: 1px solid #999;
+    width: 100%;
+    color: #4d4f53;
+    font-family: BentonSans
+}
+
+.dd-yy-mm .year {
+    width: 38%;
+    height: 45px;
+    float: left;
+    position: relative
+}
+
+@media (max-width: 660px) {
+    .dd-yy-mm .year {
+        width: 37%
+    }
+}
+
+.dd-yy-mm .year .style-select {
+    padding-left: 10px;
+    border: 1px solid #999;
+    width: 100%;
+    color: #4d4f53;
+    font-family: BentonSans
+}
+
+.dd-yy-mm .dropDownArrow {
+    position: absolute;
+    width: 20px;
+    height: 42px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -8px -128px #fff;
+    z-index: 9;
+    right: 1px;
+    top: 1px;
+    border-radius: 0 5px 5px 0;
+    pointer-events: none
+}
+
+.dd-yy-mm .redBorder .day .style-select {
+    border: solid #E1242B 1px;
+    border-radius: 5px
+}
+
+.dd-yy-mm .redBorder .month .style-select {
+    border: solid #E1242B 1px;
+    border-radius: 5px
+}
+
+.dd-yy-mm .redBorder .year .style-select {
+    border: solid #E1242B 1px;
+    border-radius: 5px
+}
+
+.style-select {
+    position: relative;
+    background-color: #FFF;
+    border-radius: 5px;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 44px
+}
+
+.style-select select {
+    font-size: 16px;
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 5px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    padding-left: 10px;
+    color: #4d4f53;
+    font-family: BentonSans
+}
+
+.style-select select option {
+    color: #4D4F53;
+    vertical-align: middle;
+    padding: 5px 10px
+}
+
+.style-select.redBorder select {
+    border: solid #E1242B 1px;
+    border-radius: 5px
+}
+
+.style-select .dropDownArrow {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -8px -128px #fff;
+    width: 20px;
+    height: 38px;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border-radius: 0 5px 5px 0;
+    pointer-events: none
+}
+
+.inlineSelect .form-label {
+    float: left;
+    width: 66.5%;
+    margin-right: 1%;
+    padding-top: 10px
+}
+
+.inlineSelect .form-input {
+    float: left;
+    width: 30%
+}
+
+.secHeadingLabel {
+    width: 100%;
+    font-size: 28px;
+    font-family: BentonSans-Lt;
+    margin-bottom: 20px;
+    color: #002663;
+    font-weight: lighter
+}
+
+@media (max-width: 660px) {
+    .secHeadingLabel {
+        font-size: 21px
+    }
+}
+
+.snrButton {
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 15px;
+    text-align: center
+}
+
+.snrButton .sectionErr {
+    text-align: left
+}
+
+.snrButton .sectionErr .sectionErrMsg {
+    color: #E1242B;
+    width: 80%;
+    max-width: 300px;
+    margin: 0px auto;
+    margin-top: 10px;
+    font-size: 13px;
+    font-weight: normal;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left
+}
+
+@media (max-width: 660px) {
+    .snrButton .sectionErr .sectionErrMsg {
+        margin-top: -5px;
+        margin-bottom: 10px;
+        margin-left: 5px
+    }
+}
+
+.snrButton .sectionErr .errorNotify {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-left: 12px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -158px -10px transparent
+}
+
+@media (max-width: 660px) {
+    .snrButton .sectionErr .errorNotify {
+        width: 18px;
+        height: 18px;
+        display: inline-block;
+        margin-right: 0px;
+        background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -167px -52px transparent
+    }
+}
+
+.snrButton button {
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 14px;
+    height: 50px;
+    border: 0;
+    border-radius: 5px;
+    font-family: BentonSans;
+    font-weight: bold;
+    text-transform: uppercase;
+    width: 50%;
+    background: #278835;
+    background: -moz-linear-gradient(top, #278835 0%, #278835 100%);
+    background: -webkit-linear-gradient(top, #278835 0%, #278835 100%);
+    background: linear-gradient(to bottom, #278835 0%, #278835 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#278835', endColorstr='#278835', GradientType=0)
+}
+
+@media (max-width: 660px) {
+    .snrButton button {
+        width: 93.8%;
+        max-width: 300px;
+        height: 45px
+    }
+}
+
+.form-input.form-right-content .text-field.HK_ID_Val_P1 {
+    width: 33%;
+    float: left;
+    margin-right: 2%
+}
+
+.form-input.form-right-content .text-field.HK_ID_Val_P2 {
+    width: 36%;
+    float: left;
+    margin-right: 2%
+}
+
+.form-input.form-right-content .text-field.HK_ID_Val_P3 {
+    width: 18%;
+    float: left;
+    margin-right: 1%;
+    margin-left: 1%
+}
+
+.form-input.form-right-content .enclosingBrace {
+    width: 7px;
+    height: 45px;
+    float: left;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -394px -218px transparent
+}
+
+.form-input.form-right-content .endBrace {
+    width: 9px;
+    height: 45px;
+    float: left;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -413px -218px transparent
+}
+
+.multiCheckboxSubSection {
+    margin-top: 20px
+}
+
+.multiCheckboxSubSection .info {
+    margin: 1em 0;
+    overflow: auto
+}
+
+.multiCheckboxSubSection .info .message {
+    margin-left: 2em
+}
+
+.multiCheckboxSubSection .info .message:before {
+    border-radius: 0.3em;
+    display: inline-block;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin-left: -2em;
+    margin-right: 0.5em;
+    text-align: center;
+    width: 1.5em
+}
+
+.multiCheckboxSubSection .important {
+    background-color: #fff;
+    color: #f00
+}
+
+.multiCheckboxSubSection .important .message:before {
+    background-color: #f00;
+    color: #fff;
+    content: "!"
+}
+
+.multiCheckboxSubSection .section-header {
+    border-bottom: 1px #E0E0E0 solid;
+    padding-bottom: 10px
+}
+
+.multiCheckboxSubSection .section-header .subheader-icon {
+    vertical-align: middle;
+    display: inline-block
+}
+
+.multiCheckboxSubSection .section-header .subheader-icon.emailIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -116px -260px transparent;
+    height: 19px;
+    width: 25px;
+    margin: 0 10px 0 0
+}
+
+.multiCheckboxSubSection .section-header .subheader-icon.membershipIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -305px -70px transparent;
+    height: 29px;
+    width: 25px;
+    margin: -5px 10px 10px 0
+}
+
+.multiCheckboxSubSection .section-header .subheader-icon-text {
+    font-size: 15px;
+    color: #70777B;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.multiCheckboxSubSection .section-body-maxWidth {
+    width: 100%;
+    margin-top: 10px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-field-label {
+    width: 100%;
+    float: none
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-field-label .section-subheader-text {
+    font-size: 13px;
+    font-family: BentonSans-Md;
+    color: #70777B;
+    float: left;
+    width: 100%;
+    margin-bottom: 10px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .checkbox-field-section {
+    margin-bottom: 10px;
+    display: inline-block
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .checkbox-field-section .checkbox-field-label {
+    font-size: 13px;
+    font-family: BentonSans;
+    color: #70777B;
+    float: left;
+    width: 86%;
+    margin-bottom: 0
+}
+
+@media (max-width: 660px) {
+    .multiCheckboxSubSection .section-body-maxWidth .checkbox-field-section .checkbox-field-label {
+        width: 83%
+    }
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .checkbox-field-section .checkbox-field {
+    float: right
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .checkbox-field-section .checkbox-field .customIcon {
+    display: inline-block
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .checkbox-field-section .bold {
+    font-family: BentonSans-Md
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .checkbox-field-section .underline {
+    text-decoration: underline
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content {
+    width: 100%
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-heading .accordion-heading-text {
+    font-size: 13px;
+    font-family: BentonSans-Md;
+    float: left;
+    color: #70777B
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-body .section-more-content-text {
+    font-family: BentonSans;
+    font-size: 13px;
+    color: #70777B
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-body .section-more-content-text ol.marketingPoints {
+    margin-left: 10px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-body .section-more-content-text ol.marketingPoints li {
+    list-style-type: decimal;
+    margin-bottom: 15px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-body .section-more-content-text ol.marketingPoints li .marketingSubPoints {
+    margin-left: 15px;
+    margin-top: 15px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-body .section-more-content-text ol.marketingPoints li .marketingSubPoints li {
+    list-style-type: lower-alpha
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-body .section-more-content-text ul {
+    margin-left: 15px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-body .section-more-content-text ul li {
+    list-style-type: disc;
+    margin-bottom: 15px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-body .section-more-content-text p {
+    margin-bottom: 15px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-body .section-more-content-text .no-margin-bottom {
+    margin-bottom: 0px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-body .section-more-content-text .bold-underline {
+    font-family: BentonSans-Md;
+    text-decoration: underline
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content .section-more-content-body .section-more-content-text .bold {
+    font-family: BentonSans-Md
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content.accordion .section-more-content-heading {
+    border: 1px solid #BFBFBF;
+    border-radius: 5px 5px 0px 0px;
+    background-color: #EBEBEB
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content.accordion .section-more-content-heading .accordion-icon {
+    float: left;
+    width: 25px;
+    height: 25px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -438px -65px transparent;
+    margin: 8px 10px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content.accordion .section-more-content-heading .accordion-heading-text {
+    margin-top: 12px;
+    width: 85%
+}
+
+@media (max-width: 400px) {
+    .multiCheckboxSubSection .section-body-maxWidth .section-more-content.accordion .section-more-content-heading .accordion-heading-text {
+        margin-top: 5px
+    }
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content.accordion .section-more-content-heading.contentHidden {
+    border-radius: 5px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content.accordion .section-more-content-heading.contentHidden .accordion-icon {
+    background-position: -438px -99px
+}
+
+.multiCheckboxSubSection .section-body-maxWidth .section-more-content.accordion .section-more-content-body {
+    border: 1px solid #BFBFBF;
+    border-top: 0;
+    border-radius: 0 0 5px 5px;
+    padding: 10px
+}
+
+.qasOptionsContainer {
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin-bottom: 10px
+}
+
+.qasOptionsContainer .qasOptions {
+    padding: 10px;
+    border-bottom: 1px solid #999;
+    cursor: pointer;
+    color: #70777B;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: BentonSans
+}
+
+.qasOptionsContainer :hover,
+.qasOptionsContainer :focus {
+    background-color: #EAEBEC
+}
+
+.qasOptionsContainer .paginationOptions {
+    font-size: 13px;
+    font-family: BentonSans;
+    font-weight: bold;
+    padding: 10px
+}
+
+.qasOptionsContainer .paginationOptions .previous {
+    float: left;
+    color: #0000FF;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.qasOptionsContainer .paginationOptions .previous .previousArrow {
+    float: left;
+    width: 10px;
+    height: 13px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -264px -20px transparent;
+    margin-top: 2px;
+    margin-right: 3px
+}
+
+.qasOptionsContainer .paginationOptions .next {
+    float: right;
+    color: #0000FF;
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.qasOptionsContainer .paginationOptions .next .nextArrow {
+    float: right;
+    width: 10px;
+    height: 13px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -263px -56px transparent;
+    margin-top: 2px;
+    margin-left: 3px
+}
+
+.qasOptionsContainer .paginationOptions:hover {
+    background-color: #FFF
+}
+
+.qasOptionsContainer .paginationOptions :hover {
+    background-color: #FFF
+}
+
+.manualAddress {
+    border-top: 1px solid #999;
+    margin-top: 15px
+}
+
+.manualAddress .or {
+    text-align: center;
+    position: relative;
+    width: 6%;
+    left: 44%;
+    top: -11px;
+    display: inline-block;
+    background-color: #FFF;
+    font-size: 13px
+}
+
+.manualAddress .manual p {
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    color: #278835;
+    font-weight: bold;
+    position: relative;
+    top: -10px;
+    cursor: pointer;
+    font-family: BentonSans
+}
+
+.manualAddress .manual p .locationIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -9px -247px transparent;
+    width: 23px;
+    height: 27px;
+    display: inline-block
+}
+
+.manualAddress .manual p .manualAddressLink {
+    position: relative;
+    top: -9px
+}
+
+.address-selectarrow {
+    width: 15px;
+    height: 15px;
+    margin: 0 auto;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -268px -214px transparent
+}
+
+.qasFieldsClass {
+    border: 1px solid #999;
+    border-radius: 5px;
+    padding: 2% 0 0 0;
+    margin-bottom: 10px
+}
+
+.qasFieldsClass .qasSecHeading {
+    font-size: 13px;
+    font-weight: bold;
+    font-family: BentonSans;
+    padding: 2%;
+    border-bottom: 1px solid #999;
+    text-transform: uppercase;
+    color: #70777B
+}
+
+.qasFieldsClass .qasSecHeading .asterisk {
+    display: inline-block
+}
+
+.qasFieldsClass .qasSecFields {
+    padding: 2% 2% 0 2%
+}
+
+.qasFieldsClass .qasSecFields .qasFieldWidth40 {
+    width: 44%;
+    margin-right: 2%;
+    float: left
+}
+
+.qasFieldsClass .qasSecFields .qasFieldWidth40 input {
+    width: 93.3%
+}
+
+@media (max-width: 660px) {
+    .qasFieldsClass .qasSecFields .qasFieldWidth40 input {
+        width: 95.3%
+    }
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .qasFieldsClass .qasSecFields .qasFieldWidth40 {
+        width: 52%
+    }
+}
+
+@media (max-width: 660px) {
+    .qasFieldsClass .qasSecFields .qasFieldWidth40 {
+        width: 100%;
+        margin-right: 0
+    }
+}
+
+.qasFieldsClass .qasSecFields .qasFieldWidth60 {
+    width: 52.5%;
+    float: left
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .qasFieldsClass .qasSecFields .qasFieldWidth60 {
+        width: 45%
+    }
+}
+
+@media (max-width: 660px) {
+    .qasFieldsClass .qasSecFields .qasFieldWidth60 {
+        width: 100%
+    }
+}
+
+.qasFieldsClass .qasSecFields .form-field .form-label .asterisk {
+    display: none
+}
+
+.qasFieldsClass .address-selectarrow {
+    margin-top: -25px
+}
+
+@media (max-width: 660px) {
+    .qasFieldsClass .address-selectarrow {
+        margin-top: -22px
+    }
+}
+
+.qasFieldsClass .noQasResult {
+    color: #E1242B
+}
+
+.radioLabel {
+    font-family: BentonSans;
+    font-size: 13px;
+    color: #70777B;
+    width: 80%
+}
+
+@media (max-width: 660px) {
+    .radioLabel {
+        width: 79%
+    }
+}
+
+.radioLabel .radioLabelTxt {
+    float: left;
+    margin-top: 5px;
+    width: 85%;
+    font-size: 16px
+}
+
+@media (max-width: 660px) {
+    .radioLabel .radioLabelTxt {
+        width: 82%
+    }
+}
+
+.form-input input[type="radio"] {
+    opacity: 0;
+    width: auto;
+    height: auto;
+    float: right
+}
+
+.form-input .radioField {
+    margin-top: 15px
+}
+
+.form-input .radioField .unchkRadioLabel .unchkCheckboxLabel {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 5px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -213px -59px transparent
+}
+
+.form-input .radioField .unchkRadioLabel.checkedRadioLabel .unchkCheckboxLabel {
+    float: left;
+    margin-right: 5px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -213px -13px transparent
+}
+
+.form-input .radioField .unchkRadioLabel .fieldFocused {
+    border-radius: 20px
+}
+
+.form-input .radioField.horizontal50 {
+    width: 27%;
+    display: inline-block
+}
+
+@media (max-width: 660px) {
+    .form-input .radioField.horizontal50 {
+        width: 50%
+    }
+}
+
+.form-input .radioField.horizontal50 .radioLabelTxt {
+    width: 55%;
+    font-size: 16px
+}
+
+@media (max-width: 660px) {
+    .form-input .radioField.horizontal50 .radioLabelTxt {
+        width: 47%
+    }
+}
+
+.form-input.error .unchkRadioLabel .unchkCheckboxLabel {
+    border: 1px solid #E1242B;
+    border-radius: 22px
+}
+
+.form-input.error .unchkRadioLabel.checkedRadioLabel .unchkCheckboxLabel {
+    border: 0px
+}
+
+.radioGroup .form-label {
+    width: 100%
+}
+
+.radioGroup .form-left-content .subLabel ul {
+    margin: 10px 0 0 40px
+}
+
+.radioGroup .form-left-content .subLabel ul li {
+    list-style: disc
+}
+
+.radioSubSection {
+    margin-bottom: 0px;
+    margin-top: 15px;
+    position: relative
+}
+
+.radioSubSection.velocityMembershipRewardsFooter {
+    margin-top: 0px;
+    margin-bottom: 10px
+}
+
+@media (max-width: 660px) {
+    .radioSubSection.velocityMembershipRewardsFooter {
+        margin-bottom: 0px
+    }
+}
+
+.radioSubSection .section-body {
+    float: left;
+    width: 100%
+}
+
+@media (max-width: 660px) {
+    .radioSubSection .section-body {
+        width: 100%
+    }
+}
+
+.radioSubSection .section-header {
+    border-bottom: 1px #e0e0e0 solid;
+    padding: 0 0 15px 0
+}
+
+.radioSubSection .section-header .subheader-icon-text {
+    padding-top: 5px;
+    font-size: 15px;
+    color: #70777B;
+    text-transform: uppercase;
+    font-weight: bold
+}
+
+.radioSubSection .subheader-icon {
+    vertical-align: middle;
+    display: inline-block;
+    width: 0px;
+    height: 0px
+}
+
+.radioSubSection .subheader-icon.membershipRewardsIcon,
+.radioSubSection .subheader-icon.giftMembershipRewardsIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -304px -71px transparent;
+    margin: 0 10px 0 0;
+    width: 26px;
+    height: 26px
+}
+
+.radioSubSection .subheader-icon.giftMembershipRewardsIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -441px -136px transparent
+}
+
+.radioSubSection .section-subheader-text {
+    width: 100%;
+    padding-top: 10px
+}
+
+.radioSubSection .section-subheader-text a {
+    color: #0000FF
+}
+
+.radioSubSection .section-subheader-text .normalText {
+    font-family: BentonSans
+}
+
+.radioSubSection .section-subheader-text .textHighlight {
+    color: #000;
+    font-size: 13px;
+    font-family: BentonSans
+}
+
+.radio-subsection-text .asterisk {
+    display: inline
+}
+
+.radio-subsection-list li {
+    list-style: disc
+}
+
+.radio-subsection-list li .bold {
+    font-family: BentonSans-Md
+}
+
+.radio-subsection-list li .bold .bond-currency {
+    font-size: 19px
+}
+
+.radio-subsection-list li .bold-italic {
+    font-family: BentonSans-Md;
+    font-style: italic
+}
+
+.radio-subsection-list li .phoneNum {
+    display: inline-block
+}
+
+.radio-subsection-list li .phoneNum .thankyouPhNum {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -354px -258px transparent
+}
+
+.radio-subsection-list {
+    padding-left: 15px
+}
+
+.radio-subsection-form .radio-subsection-radio {
+    width: 100%
+}
+
+.radio-subsection-form .radio-subsection-radio input[type=radio] {
+    border: none;
+    position: absolute;
+    left: -10000px;
+    margin: 0;
+    padding: 0
+}
+
+.radio-subsection-form .radio-subsection-radio .radio-button {
+    width: 32px;
+    height: 32px;
+    float: left;
+    margin-right: 5px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -213px -59px transparent
+}
+
+.radio-subsection-form .radio-subsection-radio input[type=radio]:checked+label span.radio-button {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -213px -13px transparent
+}
+
+.radio-subsection-form .radio-subsection-radio .radio-button.error {
+    border: 1px solid #E1242B;
+    border-radius: 22px
+}
+
+.radio-subsection-form .radio-subsection-radio .radio-button-label {
+    float: left;
+    margin-left: 45px;
+    margin-top: -30px
+}
+
+.radio-subsection-form .radio-subsection-radio .radio-button-label .bold {
+    font-family: BentonSans-Md
+}
+
+.radio-subsection-form .radio-subsection-radio .radio-button-label .bold .bold-currency {
+    font-size: 19px
+}
+
+.radio-subsection-form .radio-subsection-radio .radio-button-label .bold-italic {
+    font-family: BentonSans-Md;
+    font-style: italic
+}
+
+.radio-subsection-form .radio-subsection-radio .radio-button:hover,
+.radio-subsection-form .radio-subsection-radio .radio-button-label:hover {
+    cursor: pointer
+}
+
+.radio-subsection-form .horizontal50 {
+    width: 27%;
+    padding-top: 0px;
+    display: inline-block
+}
+
+.radio-subsection-form .horizontal50 label {
+    float: left
+}
+
+.radio-subsection-form .horizontal50 label .radio-button-label {
+    margin-top: 7px;
+    margin-left: 0px
+}
+
+@media (max-width: 660px) {
+    .radio-subsection-form .horizontal50 {
+        width: 50%
+    }
+}
+
+.radio-subsection-form .horizontal50 .radioLabelTxt {
+    width: 55%;
+    font-size: 16px
+}
+
+@media (max-width: 660px) {
+    .radio-subsection-form .horizontal50 .radioLabelTxt {
+        width: 47%
+    }
+}
+
+.suppCard {
+    margin-top: 15px
+}
+
+@media (max-width: 660px) {
+    .suppCard {
+        margin-bottom: 30px
+    }
+}
+
+.suppCard .section-header {
+    border-bottom: 1px #e0e0e0 solid;
+    padding: 0 0 15px 0
+}
+
+.suppCard .subheader-icon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -119px -157px transparent;
+    height: 21px;
+    margin: 0px 10px 0px 0px;
+    width: 28px;
+    vertical-align: middle
+}
+
+.suppCard .subheader-icon.suppcard {
+    background-position: -107px -157px;
+    display: inline-block
+}
+
+.suppCard .subheader-icon.addSuppIcon {
+    background-position: -9px -288px;
+    height: 25px;
+    width: 25px;
+    display: inline-block
+}
+
+.suppCard .subheader-icon-text {
+    font-size: 15px;
+    color: #70777B;
+    font-family: BentonSans;
+    font-weight: bold;
+    text-transform: uppercase
+}
+
+.suppCard .section-subheader-text {
+    font-size: 14px;
+    color: #666666;
+    font-family: Bentonsans;
+    box-sizing: border-box;
+    margin: 10px 0 15px 0
+}
+
+.suppCard .addSuppCardsLink {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    margin-top: 5px
+}
+
+.suppCard .addSuppCardsLink h5 {
+    display: inline-block;
+    margin-top: 3px;
+    text-decoration: underline;
+    color: #0000FF;
+    text-transform: uppercase;
+    font-weight: normal
+}
+
+.suppCard .suppUserAdded {
+    background-color: #EBEBEB;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: 98%;
+    padding: 6px 1%
+}
+
+.suppCard .suppUserAdded .suppUserName {
+    font-size: 13px;
+    font-family: BentonSans;
+    color: #4D4F53;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 70%;
+    margin-top: 6px;
+    padding-left: 10px;
+    font-weight: bold;
+    float: left
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppUserAdded .suppUserName {
+        width: 63%
+    }
+}
+
+.suppCard .suppUserAdded .suppActionsIcon {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat transparent;
+    height: 25px;
+    margin: 0 10px 0 0px;
+    width: 40px;
+    vertical-align: middle;
+    float: right;
+    margin-bottom: 2px
+}
+
+.suppCard .suppUserAdded .suppActionsIcon.deleteSuppCard {
+    background-position: 3px -6px;
+    display: inline-block;
+    cursor: pointer
+}
+
+.suppCard .suppUserAdded .suppActionsIcon.modifySuppCard {
+    background-position: 3px -52px;
+    display: inline-block;
+    cursor: pointer
+}
+
+.suppCard .suppOverlayContainer {
+    position: absolute;
+    width: 98%;
+    z-index: 9999;
+    top: -86px;
+    left: 1%;
+    background-color: #FFF
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppOverlayContainer {
+        width: 90%;
+        left: 4%;
+        top: -59px
+    }
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent {
+    width: 100%
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayHeaderContent {
+    width: 96%;
+    padding: 15px 2%;
+    padding-left: 15px;
+    background-color: #F7F7F7;
+    border-bottom: 1px solid #CCC
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayHeaderContent {
+        width: 95%;
+        padding: 3% 2.5%
+    }
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayHeaderContent .overlayClose {
+    width: 24px;
+    height: 24px;
+    float: right;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") -7px -98px no-repeat transparent;
+    cursor: pointer;
+    margin-top: -6px
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayHeaderContent h4 {
+    font-family: "BentonSans";
+    font-size: 11px;
+    font-weight: bold;
+    color: #000;
+    margin: 0
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent {
+    width: 96%;
+    padding: 1% 2%;
+    padding-top: 25px
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent {
+        width: 93%;
+        padding: 4%
+    }
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .fieldContentLabel p {
+    font-size: 13px;
+    padding-bottom: 30px;
+    font-family: BentonSans;
+    color: #70777B
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer {
+    width: 70%;
+    display: inline-block
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer {
+        width: 100%
+    }
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .form-label {
+    width: 42%;
+    margin-right: 1%;
+    float: left;
+    margin-top: 10px
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .form-label {
+        width: 100%;
+        margin-top: 0
+    }
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .form-input {
+    width: 57%;
+    display: inline-block
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .form-input {
+        width: 100%
+    }
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .form-input .radioField {
+    margin-top: 0
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .form-input .radioField {
+        margin-top: 15px
+    }
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .form-input .radioField.horizontal50 {
+    width: 43%
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .errorFields.inline {
+    padding-left: 42%
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .errorFields.inline {
+        padding-left: 0
+    }
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .errorFields.inline .message {
+    width: 84%
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .errorFields.inline .message {
+        width: 88%
+    }
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .errorFields.tooltip {
+    width: 36%
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .errorFields.tooltip {
+        width: 93%
+    }
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .cardnumber-field input.card1 {
+    width: 24%
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .cardnumber-field input.card2 {
+    width: 30%
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .formContainer .cardnumber-field input.card3 {
+    width: 29%
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .section-field-label-points {
+    display: inline-block;
+    margin-top: 20px
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .section-field-label-points ul {
+    padding-left: 3.5%
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .section-field-label-points ul li {
+    list-style-type: disc;
+    font-size: 13px;
+    color: #70777B;
+    line-height: 15px;
+    margin-bottom: 20px
+}
+
+.suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .snrButton button {
+    width: 40%
+}
+
+@media (max-width: 660px) {
+    .suppCard .suppOverlayContainer .suppOverlayContent .suppOverlayBodyContent .snrButton button {
+        width: 93.8%
+    }
+}
+
+.telephoneLabel {
+    margin-bottom: 5px
+}
+
+@media (min-width: 831px) {
+    .telephone-number-fields-section {
+        position: relative
+    }
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .telephone-number-fields-section {
+        position: relative
+    }
+}
+
+.telephone-numbers {
+    width: 43.5%;
+    float: left
+}
+
+@media (max-width: 660px) {
+    .telephone-numbers {
+        width: 100%
+    }
+}
+
+.telephone-numbers.firstField {
+    width: 55%
+}
+
+@media (max-width: 660px) {
+    .telephone-numbers.firstField {
+        width: 100%
+    }
+}
+
+.telephone-numbers.firstField .first-field-input {
+    width: 83%;
+    display: inline-block
+}
+
+@media (max-width: 660px) {
+    .telephone-numbers.firstField .first-field-input {
+        width: 100%
+    }
+}
+
+.telephone-numbers.firstField .telephone-field-separator {
+    width: 15%;
+    display: inline-block;
+    text-align: center
+}
+
+@media (max-width: 660px) {
+    .telephone-numbers.firstField .telephone-field-separator {
+        width: 100%;
+        position: relative;
+        border-bottom: 1px solid #999;
+        top: -2px
+    }
+}
+
+@media (max-width: 660px) {
+    .telephone-numbers.firstField .telephone-field-separator .separator {
+        width: 100%;
+        position: absolute;
+        top: -7px;
+        background-color: #FFF;
+        width: 45px;
+        left: 43%;
+        z-index: 999
+    }
+}
+
+.form-field.yy-mm select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font-size: 16px
+}
+
+.form-field.yy-mm .form-label {
+    width: 58%;
+    float: left;
+    margin-top: 10px
+}
+
+@media (max-width: 660px) {
+    .form-field.yy-mm .form-label {
+        width: 100%;
+        margin-top: 0px
+    }
+}
+
+.form-field.yy-mm .form-input {
+    width: 42%;
+    float: left
+}
+
+@media (max-width: 660px) {
+    .form-field.yy-mm .form-input {
+        width: 100%
+    }
+}
+
+.form-field.yy-mm .form-input .year {
+    position: relative;
+    float: left;
+    width: 48%;
+    margin: 0;
+    margin-right: 5%;
+    height: 45px
+}
+
+@media (max-width: 660px) {
+    .form-field.yy-mm .form-input .year {
+        width: 50%;
+        margin-right: 2%
+    }
+}
+
+.form-field.yy-mm .form-input .year .style-select {
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid #999;
+    color: #4d4f53;
+    font-family: BentonSans
+}
+
+.form-field.yy-mm .form-input .month {
+    position: relative;
+    float: left;
+    width: 47%;
+    margin: 0;
+    height: 45px
+}
+
+@media (max-width: 660px) {
+    .form-field.yy-mm .form-input .month {
+        width: 48%
+    }
+}
+
+.form-field.yy-mm .form-input .month .style-select {
+    width: 100%;
+    padding-left: 10px;
+    border: 1px solid #999;
+    color: #4d4f53;
+    font-family: BentonSans
+}
+
+.form-field.yy-mm .form-input .error .style-select {
+    border: 1px solid #E1242B
+}
+
+.form-field.yy-mm .form-input .dropDownArrow {
+    position: absolute;
+    width: 20px;
+    height: 42px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -8px -128px #fff;
+    z-index: 9;
+    right: 1px;
+    top: 1px;
+    border-radius: 0 5px 5px 0;
+    pointer-events: none
+}
+
+.chevronContainer {
+    max-width: 750px;
+    margin: 20px auto;
+    margin-bottom: 18px;
+    width: 99%;
+    background-color: #FFFFFF
+}
+
+@media (max-width: 660px) {
+    .chevronContainer {
+        margin-left: 7px
+    }
+}
+
+.chevronContainer .sectionContainer {
+    width: 31%;
+    margin-right: 2%;
+    float: left;
+    padding: 15px 0;
+    border: 1px solid #cacaca;
+    border-left: 0;
+    border-right: 0;
+    position: relative
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer {
+        padding: 8px 0;
+        width: 29%;
+        margin-right: 3%
+    }
+}
+
+.chevronContainer .sectionContainer .sectionTitleNumber {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    line-height: 13px;
+    display: none
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer .sectionTitleNumber {
+        display: block
+    }
+}
+
+.chevronContainer .sectionContainer .sectionTitleText {
+    color: #000000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    text-align: center;
+    line-height: 13px;
+    padding-left: 7%
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer .sectionTitleText {
+        display: none;
+        padding-left: 0
+    }
+}
+
+.chevronContainer .sectionContainer .rightArrow .rightArrowGrey {
+    display: inline-block;
+    border-top: 23px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 13px solid #CACACA;
+    position: absolute;
+    top: -1px;
+    left: 100%;
+    z-index: 2
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer .rightArrow .rightArrowGrey {
+        border-top-width: 16px;
+        border-bottom-width: 15.5px;
+        border-left-width: 9px;
+        position: absolute;
+        top: -1px
+    }
+}
+
+.chevronContainer .sectionContainer .rightArrow .rightArrowWhite {
+    display: inline-block;
+    border-top: 23px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 13px solid #FFF;
+    position: absolute;
+    top: -1px;
+    left: 99.6%;
+    z-index: 3
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer .rightArrow .rightArrowWhite {
+        border-top-width: 16px;
+        border-bottom-width: 15.5px;
+        border-left-width: 9px;
+        position: absolute;
+        top: -1px
+    }
+}
+
+.chevronContainer .sectionContainer .leftArrow .leftArrowGrey {
+    display: inline-block;
+    border-top: 23px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 16px solid #CACACA;
+    position: absolute;
+    top: -1px;
+    left: 1px;
+    z-index: 2
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer .leftArrow .leftArrowGrey {
+        border-top-width: 16px;
+        border-bottom-width: 15.5px;
+        border-left-width: 9px;
+        position: absolute;
+        top: -1px
+    }
+}
+
+.chevronContainer .sectionContainer .leftArrow .leftArrowWhite {
+    display: inline-block;
+    border-top: 23px solid transparent;
+    border-right: 16px solid transparent;
+    border-bottom: 22px solid transparent;
+    border-left: 16px solid #FFF;
+    position: absolute;
+    top: -1px;
+    left: 0;
+    z-index: 3
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer .leftArrow .leftArrowWhite {
+        border-top-width: 16px;
+        border-bottom-width: 15.5px;
+        border-left-width: 9px;
+        position: absolute;
+        top: -1px;
+        left: 0px
+    }
+}
+
+.chevronContainer .sectionContainer.start {
+    border-radius: 5px 0 0 5px
+}
+
+.chevronContainer .sectionContainer.end {
+    border-right: 1px solid #cacaca;
+    border-radius: 0 5px 5px 0;
+    margin-right: 0%;
+    width: 33%
+}
+
+.chevronContainer .sectionContainer.end .rightArrow .rightArrowGrey {
+    border: none
+}
+
+.chevronContainer .sectionContainer.end .rightArrow .rightArrowWhite {
+    border: none
+}
+
+.chevronContainer .sectionContainer.end .leftArrow .leftArrowWhite {
+    left: 0px;
+    border-top-width: 23px;
+    border-bottom-width: 22px;
+    top: -1px
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer.end .leftArrow .leftArrowWhite {
+        border-top-width: 16px;
+        border-bottom-width: 15px;
+        border-left-width: 9px;
+        position: absolute;
+        top: -1px;
+        left: -1px
+    }
+}
+
+.chevronContainer .sectionContainer.end .leftArrow .leftArrowGrey {
+    left: 1px
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer.end .leftArrow .leftArrowGrey {
+        left: 0
+    }
+}
+
+.chevronContainer .sectionContainer.active {
+    background-color: #278835;
+    border-color: #278835
+}
+
+.chevronContainer .sectionContainer.active .sectionTitleText {
+    color: #FFF
+}
+
+.chevronContainer .sectionContainer.active .sectionTitleNumber {
+    color: #FFF
+}
+
+.chevronContainer .sectionContainer.active .rightArrow .rightArrowGrey {
+    border-left-color: #278835;
+    border-bottom-width: 23px;
+    top: -1px;
+    left: 100%
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer.active .rightArrow .rightArrowGrey {
+        border-bottom-width: 15px;
+        left: 100%
+    }
+}
+
+.chevronContainer .sectionContainer.active .rightArrow .rightArrowWhite {
+    border-left-color: #278835
+}
+
+.chevronContainer .sectionContainer.active .leftArrow .leftArrowGrey {
+    border-left-color: #278835
+}
+
+.chevronContainer .sectionContainer.active.start .leftArrow .leftArrowGrey {
+    left: 2%;
+    border-left-color: #278835
+}
+
+.chevronContainer .sectionContainer.active.start .leftArrow .leftArrowWhite {
+    left: 2%;
+    border-left-color: #278835
+}
+
+.chevronContainer .sectionContainer.active.start .rightArrow .rightArrowGrey {
+    left: 100%;
+    border-bottom-width: 23px
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer.active.start .rightArrow .rightArrowGrey {
+        border-bottom-width: 15px
+    }
+}
+
+.chevronContainer .sectionContainer.complete {
+    background-color: #ACACAC;
+    border-color: #ACACAC
+}
+
+.chevronContainer .sectionContainer.complete .sectionTitleText {
+    color: #FFF
+}
+
+.chevronContainer .sectionContainer.complete .sectionTitleNumber {
+    color: #FFF
+}
+
+.chevronContainer .sectionContainer.complete .rightArrow .rightArrowGrey {
+    border-left-color: #ACACAC;
+    border-bottom-width: 23px;
+    top: -1px;
+    left: 100%
+}
+
+@media (max-width: 660px) {
+    .chevronContainer .sectionContainer.complete .rightArrow .rightArrowGrey {
+        border-bottom-width: 15px
+    }
+}
+
+.chevronContainer .sectionContainer.complete .rightArrow .rightArrowWhite {
+    border-left-color: #ACACAC
+}
+
+.chevronContainer .sectionContainer.complete .leftArrow .leftArrowGrey {
+    border-left-color: #ACACAC
+}
+
+.chevronContainer .sectionContainer.complete.start .leftArrow .leftArrowGrey {
+    left: 2%;
+    border-left-color: #ACACAC
+}
+
+.chevronContainer .sectionContainer.complete.start .leftArrow .leftArrowWhite {
+    left: 2%;
+    border-left-color: #ACACAC
+}
+
+#blue-banner-content {
+    max-width: 750px;
+    margin: 0 auto;
+    width: 97%;
+    padding: 12px 0
+}
+
+#blue-banner-content #card-art-wrapper {
+    display: inline-block;
+    width: 90px
+}
+
+@media (max-width: 660px) {
+    #blue-banner-content #card-art-wrapper {
+        width: 80px
+    }
+}
+
+#blue-banner-content #card-art-wrapper img {
+    width: 100%
+}
+
+#blue-banner-content #banner-text-wrapper {
+    display: inline-block;
+    vertical-align: top;
+    color: #FFF;
+    width: 53%;
+    padding-left: 12px;
+    margin-top: 10px
+}
+
+@media (max-width: 660px) {
+    #blue-banner-content #banner-text-wrapper {
+        margin-top: 5px;
+        width: 68%
+    }
+}
+
+#blue-banner-content #banner-text-wrapper #productName {
+    font-size: 18px;
+    font-family: BentonSans
+}
+
+@media (max-width: 660px) {
+    #blue-banner-content #banner-text-wrapper #productName {
+        font-size: 13px
+    }
+}
+
+#blue-banner-content #banner-text-wrapper #subTxt {
+    font-size: 11px;
+    font-family: BentonSans
+}
+
+@media (max-width: 660px) {
+    #blue-banner-content #banner-text-wrapper #subTxt {
+        font-size: 9px
+    }
+}
+
+#blue-banner-content #smallBannerImpLink,
+#blue-banner-content #bannerImpLink {
+    display: inline-block;
+    vertical-align: top;
+    text-align: right;
+    width: 30%;
+    margin-top: 20px
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    #blue-banner-content #smallBannerImpLink,
+    #blue-banner-content #bannerImpLink {
+        width: 30%
+    }
+}
+
+#blue-banner-content #smallBannerImpLink a,
+#blue-banner-content #bannerImpLink a {
+    color: #FFF;
+    font-size: 12px;
+    font-family: BentonSans;
+    text-transform: capitalize;
+    cursor: pointer
+}
+
+@media (max-width: 660px) {
+    #blue-banner-content #smallBannerImpLink,
+    #blue-banner-content #bannerImpLink {
+        display: none
+    }
+}
+
+#smallBannerImpLink {
+    display: none;
+    text-align: center;
+    margin: 15px auto;
+    line-height: 12px
+}
+
+@media (max-width: 660px) {
+    #smallBannerImpLink {
+        display: block
+    }
+}
+
+#smallBannerImpLink a {
+    color: #00F;
+    text-decoration: underline;
+    text-transform: capitalize;
+    font-size: 12px;
+    font-family: BentonSans;
+    cursor: pointer
+}
+
+.sideBar {
+    width: 34%;
+    float: right
+}
+
+.sideBar .rightCardArtImg {
+    width: 100%;
+    margin: 30px auto;
+    margin-bottom: 17px;
+    max-width: 160px;
+    position: relative
+}
+
+.sideBar .rightCardArtImg img {
+    width: 100%
+}
+
+.sideBar .offerBullets .offerBulletIconSec {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 20px
+}
+
+.sideBar .offerBullets .offerBulletIconSec .offerBulletIcon {
+    width: 14px;
+    height: 20px;
+    display: inline-block;
+    margin: 0 auto;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -269px -140px transparent
+}
+
+.sideBar .offerBullets .cardArtTitile {
+    color: #595959;
+    font-size: 14px;
+    line-height: 15px;
+    width: 85%;
+    text-align: center;
+    font-family: BentonSans;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    text-transform: uppercase
+}
+
+.sideBar .offerBullets .offerBulletsList ul {
+    width: 85%;
+    margin: 0 auto;
+    border-top: 1px solid #CCC
+}
+
+.sideBar .offerBullets .offerBulletsList ul li {
+    font-size: 13px;
+    color: #262626;
+    text-align: center;
+    padding: 10px;
+    font-family: BentonSans;
+    line-height: 18px;
+    margin: 5px 0;
+    border-bottom: 1px solid #CCC
+}
+
+.sideBar .rightHelpContent {
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 20px
+}
+
+.sideBar .rightHelpContent div {
+    margin-bottom: 10px;
+    padding: 0 1%
+}
+
+.sideBar .rightHelpContent div .phone {
+    width: 28px;
+    height: 32px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -114px -294px transparent;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 8px
+}
+
+.sideBar .rightHelpContent div.faq {
+    width: 28px;
+    height: 32px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -157px -295px transparent;
+    display: inline-block;
+    margin-bottom: 0px;
+    margin-right: 8px
+}
+
+.sideBar .rightHelpContent a {
+    font-size: 13px;
+    font-family: BentonSans;
+    line-height: 18px;
+    display: inline-block;
+    height: auto;
+    position: relative;
+    top: -2px;
+    width: 69%;
+    color: #0000FF
+}
+
+.sideBar .rightHelpContent a.phone {
+    text-decoration: none;
+    color: #278835;
+    background: none;
+    width: 70%;
+    height: auto;
+    top: -12px;
+    font-family: BentonSans-Md
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .sideBar .rightHelpContent a.phone {
+        top: -14px
+    }
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .sideBar .rightHelpContent a {
+        top: -3px
+    }
+}
+
+.sideBar .rightHelpContent a :visited {
+    color: #0000FF
+}
+
+.sideBar .rightHelpContent span {
+    color: #278835;
+    background: none;
+    width: 70%;
+    margin-top: -30px;
+    margin-left: 45px;
+    font-family: BentonSans-Md;
+    display: block
+}
+
+.sectionHeaderTolTip .errorFields.static {
+    position: absolute;
+    color: #666666;
+    background-color: #F9F9F9;
+    border: 1px solid #BDBEBF;
+    padding: 15px;
+    border-radius: 2px;
+    font-size: 13px;
+    width: 240px;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    opacity: 0
+}
+
+.sectionHeaderTolTip .errorFields.static .error-arrow {
+    background: none;
+    float: left;
+    margin: 0px 0 0 -20px;
+    left: 50%;
+    top: 100%;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -62px -129px transparent;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg)
+}
+
+.sectionHeaderTolTip .errorFields.static .message {
+    width: 100%;
+    margin: 0;
+    font-size: 11px
+}
+
+.errorFields.tooltip {
+    color: #FFFFFF;
+    background-color: #E1242B;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 13px;
+    position: absolute;
+    left: 100%;
+    width: 94%;
+    top: -5px;
+    z-index: 999;
+    opacity: 0
+}
+
+.errorFields.tooltip.greenToolTip {
+    background-color: #278835
+}
+
+.errorFields.tooltip.greenToolTip .error-arrow {
+    border-color: transparent #278835 transparent
+}
+
+@media (max-width: 660px) {
+    .errorFields.tooltip.greenToolTip .error-arrow {
+        border-width: 14px 14px 14px 14px;
+        top: 100%;
+        border-style: solid solid none solid;
+        border-color: #278835 transparent transparent transparent;
+        left: 50%
+    }
+}
+
+@media (min-width: 831px) {
+    .errorFields.tooltip {
+        max-width: 240px
+    }
+}
+
+@media (min-width: 661px) and (max-width: 830px) {
+    .errorFields.tooltip {
+        max-width: 240px;
+        width: 40%
+    }
+}
+
+.errorFields.tooltip .error-arrow {
+    border-width: 14px 14px 14px medium;
+    border-style: solid solid solid none;
+    border-color: transparent #E1242B transparent;
+    width: 0px;
+    float: left;
+    margin: 0px 0 0 -20px;
+    position: absolute;
+    left: 9px;
+    top: 6px
+}
+
+@media (max-width: 660px) {
+    .errorFields.tooltip .error-arrow {
+        border-width: 14px 14px 14px 14px;
+        top: 100%;
+        border-style: solid solid none solid;
+        border-color: #E1242B transparent transparent transparent;
+        left: 50%;
+        margin-top: -1px
+    }
+}
+
+.errorFields.inline {
+    color: #E1242B;
+    font-size: 13px;
+    font-family: BentonSans;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    float: left;
+    width: 100%
+}
+
+.errorFields.inline .error-arrow {
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -159px -10px transparent;
+    float: left;
+    width: 34px;
+    height: 34px
+}
+
+@media (max-width: 660px) {
+    .errorFields.inline .error-arrow {
+        background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -167px -52px transparent;
+        width: 18px;
+        height: 18px
+    }
+}
+
+.errorFields.inline .message {
+    display: inline-block;
+    margin-top: 10px;
+    width: 88%;
+    margin-left: 5px
+}
+
+@media (max-width: 660px) {
+    .errorFields.inline .message {
+        margin-top: 0px
+    }
+}
+
+.intermediateOverlay {
+    background-color: #FFFFFF;
+    position: absolute;
+    z-index: 9999;
+    width: 90%;
+    left: 4%;
+    top: -80px
+}
+
+.intermediateOverlay .spinner {
+    margin-top: 50px
+}
+
+.intermediateOverlay .creditCheckText {
+    text-align: center;
+    margin: 25px 0 60px 0
+}
+
+.intermediateOverlay .creditCheckText.progress {
+    margin-bottom: 100px
+}
+
+.intermediateOverlay .creditCheckText .checkingCredit {
+    color: #003366;
+    font-size: 32px;
+    line-height: 32px;
+    font-family: BentonSans
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .creditCheckText .checkingCredit {
+        font-size: 26px
+    }
+}
+
+.intermediateOverlay .creditCheckText .checkingTime {
+    font-size: 16px;
+    font-family: BentonSans;
+    color: #666666;
+    line-height: 16px;
+    margin-top: 15px
+}
+
+.intermediateOverlay .appFlow {
+    width: 520px;
+    margin: 0 auto;
+    text-align: center
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow {
+        width: 270px
+    }
+}
+
+.intermediateOverlay .appFlow .creditCheck {
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+    width: 100%;
+    max-width: 140px;
+    margin-bottom: 15px
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow .creditCheck {
+        max-width: 65px
+    }
+}
+
+.intermediateOverlay .appFlow .creditCheck .creditCheckIcon {
+    width: 51px;
+    height: 51px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -206px -205px transparent
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow .creditCheck .creditCheckIcon {
+        width: 34px;
+        height: 37px;
+        background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -303px -255px transparent
+    }
+}
+
+.intermediateOverlay .appFlow .creditCheck .creditCheckTxt {
+    width: 100%;
+    font-size: 14px;
+    color: #468D00;
+    font-family: BentonSans
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow .creditCheck .creditCheckTxt {
+        font-size: 12px
+    }
+}
+
+.intermediateOverlay .appFlow .finishApp {
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 15px;
+    max-width: 140px
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow .finishApp {
+        max-width: 65px
+    }
+}
+
+.intermediateOverlay .appFlow .finishApp .finishAppIcon {
+    width: 51px;
+    height: 51px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -206px -270px transparent
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow .finishApp .finishAppIcon {
+        width: 34px;
+        height: 37px;
+        background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -348px -84px transparent
+    }
+}
+
+.intermediateOverlay .appFlow .finishApp .finishAppTxt {
+    width: 100%;
+    font-size: 14px;
+    color: #999999;
+    font-family: BentonSans
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow .finishApp .finishAppTxt {
+        font-size: 12px
+    }
+}
+
+.intermediateOverlay .appFlow .selectPref {
+    float: left;
+    margin-right: 2%;
+    text-align: center;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 15px;
+    max-width: 140px
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow .selectPref {
+        max-width: 65px
+    }
+}
+
+.intermediateOverlay .appFlow .selectPref .selectPrefIcon {
+    width: 51px;
+    height: 51px;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -206px -134px transparent
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow .selectPref .selectPrefIcon {
+        width: 34px;
+        height: 37px;
+        background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -347px -131px transparent
+    }
+}
+
+.intermediateOverlay .appFlow .selectPref .selectPrefTxt {
+    font-size: 14px;
+    font-family: BentonSans;
+    color: #999999
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow .selectPref .selectPrefTxt {
+        font-size: 12px
+    }
+}
+
+.intermediateOverlay .appFlow .appFlowIcon {
+    margin-top: 23px;
+    float: left;
+    margin-right: 2%;
+    width: 27px;
+    height: 14px;
+    background: url("https://icm.aexp-static.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/arrow_animation.gif") no-repeat 0px 0px transparent
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow .appFlowIcon {
+        margin-top: 15px
+    }
+}
+
+.intermediateOverlay .appFlow .appFlowIconFixed {
+    margin-top: 23px;
+    float: left;
+    margin-right: 2%;
+    width: 25px;
+    height: 15px;
+    background: url("https://qicm.americanexpress.com/Internet/IntlAcquisition/DECA/Intl-Digital-Acquisition/DYNA/images/dynapp-sprite.png") no-repeat -352px -15px transparent
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .appFlow .appFlowIconFixed {
+        margin-top: 15px
+    }
+}
+
+.intermediateOverlay .bottomContentData {
+    background-color: #EDEDED;
+    text-align: center;
+    font-size: 13px;
+    color: #666666;
+    padding: 16px 0;
+    margin-top: 40px
+}
+
+@media (max-width: 660px) {
+    .intermediateOverlay .bottomContentData {
+        font-size: 12px
+    }
+}
